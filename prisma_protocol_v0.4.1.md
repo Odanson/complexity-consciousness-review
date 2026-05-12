@@ -224,6 +224,13 @@ The three methodology-only seeds (§B9b — Tononi-Sporns-Edelman 1994; Oizumi-A
 
 On the day of the locked multi-database search (TBD, before OSF registration), all six queries will be run within a 24-hour window. Raw query strings, date / time of execution, per-database hit counts, and exported result files will be archived as `search_log_YYYY-MM-DD.txt` plus per-database RIS exports in the OSF project. This file forms the audit trail PRISMA-ScR / JBI methodology requires.
 
+**Code and protocol archive.** The pilot-search script (`pilot_search.py`), the locked database queries (`database_queries.md`), the PRISMA-ScR / PRISMA-S checklist mapping (`prisma_checklist_mapping.md`), and this protocol are archived on Zenodo with a permanent DOI:
+
+- **v0.4.1 (this version):** [10.5281/zenodo.20140262](https://doi.org/10.5281/zenodo.20140262)
+- **Concept DOI** (always resolves to the latest released version): [10.5281/zenodo.20140263](https://doi.org/10.5281/zenodo.20140263)
+
+The GitHub source repository linked by Zenodo will be made public on the day of OSF registration; the link will be added here at that time.
+
 ### B7. Study records — management, selection, extraction
 
 **Reference management.** Zotero group library (shared with supervisors); export to RIS.
@@ -511,6 +518,7 @@ Status of the seven decisions raised in v0.2 / v0.3, after the supervisor review
   - *Search re-pilot completed (2026-05-12).* v0.4.1 PubMed pilot returned **5,267 records** (+15 % from v0.3's 4,580). §B6.1 hit-count table populated. Seven of eight empirical seeds captured. **Sitt 2014 confirmed as a database miss after wSMI expansion** — the paper's published abstract contains none of the specific complexity-measure names; recovery path via §B5 citation tracking now confirmed rather than provisional. **Chis-Ciure, Melloni & Northoff 2024 reclassified from B9a (empirical) to B9b (methodology-only)** — the pilot showed B3:– (correctly, since it is a methodology / review paper, not an empirical study). §B6.2 narrative updated to reflect both results.
   - *Authorship and full names recorded.* Provisional authorship locked (in §B1 and the header): Samson Odan, Lucia Melloni, Andrej Bicanski, Jurgen Jost — Adam Barrett and Anil Seth to be added on contribution. Supervisor surnames expanded throughout to full names. **Adam Barnett → Adam Barrett** corrected (Lucia's docx insertion had a typo; Adam B. Barrett at Sussex, Anil Seth's collaborator on causal density and integrated information, is the intended person).
   - *Companion documents added.* `prisma_checklist_mapping.md` (PRISMA-ScR 22-item + PRISMA-S 16-item mapping, one-page) and `github_zenodo_setup.md` (step-by-step instructions for putting the repo on GitHub and producing a Zenodo DOI for v0.4.1).
+  - *Zenodo archive created (2026-05-12).* v0.4.1 of the protocol and companion files archived on Zenodo. Specific-release DOI: **10.5281/zenodo.20140262**. Concept (latest) DOI: **10.5281/zenodo.20140263**. §B6.3 (Search audit trail) updated to record both DOIs. `README.md` populated with the badge, file index, citation, and licence (CC-BY 4.0 for the protocol; MIT for the code).
 
 ---
 

@@ -19,3 +19,16 @@ notes_private/
 .env
 .venv/
 .ipynb_checkpoints/
+
+# Local working notes
+pilot_search_notes.md
+prisma_protocol_action_plan.md
+
+github_zenodo_setup.md
+
+# Presentations and local admin material
+*.pptx
+Feedback_*.docx
+Supervisor_Report_*.docx
+email_to_supervisors.md
+requirements.txt

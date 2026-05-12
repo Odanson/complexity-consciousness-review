@@ -24,13 +24,12 @@ External collaborators (to be added on contribution): Adam Barrett, Anil Seth.
 
 ## Files
 
-- **`prisma_protocol_v0.4.1.md` / `.docx`** — current protocol, including locked search strategy, PECO criteria, eight-axis taxonomy, screening model, and amendments log.
+- **`prisma_protocol.md`** and **`prisma_protocol_v0.4.1.md` / `.docx`** — current protocol, including locked search strategy, PECO criteria, eight-axis taxonomy, screening model, and amendments log. (`prisma_protocol.md` tracks the latest in-progress version; the `_v0.4.1` files are the stable snapshot archived on Zenodo.)
 - **`database_queries.md`** — locked PubMed query plus equivalent translations for Scopus, Web of Science, PsycINFO, IEEE Xplore, and Embase.
 - **`prisma_checklist_mapping.md` / `.docx`** — PRISMA-ScR (22-item) and PRISMA-S (16-item) compliance mapping against the protocol.
 - **`pilot_search.py`** — pilot-search and seed-validation script (Python, stdlib only; queries PubMed E-utilities).
 - **`pilot_search_report.md`** — most recent pilot output (hit counts + seed-paper per-block diagnosis).
 - **`github_zenodo_setup.md`** — instructions used to set up this repository and the Zenodo archive.
-- **`prisma_protocol_action_plan.md`** — original v0.1 working document with the 3-month action plan (kept for historical context).
 
 ## Reproducing the pilot search
 
