@@ -1,0 +1,21 @@
+# macOS / IDE droppings
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+
+# Large or copyrighted artefacts that should NOT be in a public repo
+*.pdf
+uploads/
+full_texts/
+zotero_library/
+
+# Local-only scratch
+scratch/
+notes_private/
+
+# Python environments / Jupyter
+.env
+.venv/
+.ipynb_checkpoints/
