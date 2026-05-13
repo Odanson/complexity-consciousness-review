@@ -4,13 +4,13 @@
 
 Protocol, search strategy, and pilot code for a methodological scoping review of complexity measures applied to neural data in consciousness research.
 
-The review catalogues every quantitative complexity measure that has been applied to neural recordings in a consciousness context, classifies them along eight orthogonal axes (mathematical primitive, data requirement, spatial scale, temporal granularity, theory anchoring, inferential status, validation evidence, aspect of consciousness), audits the fit between each measure's mathematical content and the claims made with it, and flags systematic gaps. Reporting follows **PRISMA-ScR** (Tricco et al. 2018) and **PRISMA-S** (Rethlefsen et al. 2021); methodology follows **JBI** scoping-review guidance (Peters et al. 2020; Pollock et al. 2023).
+The review catalogues every quantitative complexity measure that has been applied to neural recordings in a consciousness context, classifies them along nine orthogonal axes (mathematical lineage, mathematical primitive, data requirement, spatial scale, temporal granularity, theory anchoring, inferential status, validation evidence, aspect of consciousness), audits the fit between each measure's mathematical content and the claims made with it, and flags systematic gaps. Reporting follows **PRISMA-ScR** (Tricco et al. 2018) and **PRISMA-S** (Rethlefsen et al. 2021); methodology follows **JBI** scoping-review guidance (Peters et al. 2020; Pollock et al. 2023).
 
 ## Status
 
 | Item | Status |
 |---|---|
-| Protocol version | **v0.4.1** (2026-05-11) |
+| Protocol version | **v0.4.2** (2026-05-12) |
 | Search strategy | Locked in PubMed; five other database translations drafted |
 | PubMed hit count | 5,267 records (pilot, 2026-05-12) |
 | Empirical seeds captured | 7 / 8 (Sitt 2014 = documented DB miss, recovered via citation tracking) |
