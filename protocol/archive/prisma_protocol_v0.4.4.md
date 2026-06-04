@@ -1,6 +1,6 @@
 # Complexity Measures of Consciousness — PRISMA Review Protocol
 
-**Version 0.5 — 2026-05-29 (draft, holding for supervisor sign-off before OSF registration)**
+**Version 0.4.4 — 2026-05-29**
 
 **Lead reviewer:** Samson Odan
 **Supervisors:** Jurgen Jost, Lucia Melloni, Andrej Bicanski
@@ -15,9 +15,9 @@
 
 "Complexity" is used in consciousness science to refer to fundamentally different mathematical objects — entropy of a signal, compressibility of a binary string, integration of information across a partition, criticality of dynamics, graph topology, manifold dimension, the geometry of a "qualia space." These are not interchangeable. A reader of the literature today has no clean map from *measure → what it computes → what it can warrant about consciousness*.
 
-This review will produce that map. It will (i) systematically map and characterise quantitative complexity measures applied to neural data in consciousness research, (ii) classify the included corpus along eight orthogonal axes (mathematical primitive, data requirement, temporal granularity, aspect of consciousness, spatial scale, theory anchoring, inferential status, validation evidence), (iii) audit the fit between each included measure's mathematical content and the claims made with it, and (iv) identify conceptual and methodological gaps, including potential gaps relating to the structural geometry of experience and the representation of temporal experience.
+This review will produce that map. It will (i) systematically identify and catalogue quantitative complexity measures applied to neural data in consciousness research, (ii) classify the included corpus along eight orthogonal axes (mathematical primitive, data requirement, temporal granularity, aspect of consciousness, spatial scale, theory anchoring, inferential status, validation evidence), (iii) audit the fit between each included measure's mathematical content and the claims made with it, and (iv) identify conceptual and methodological gaps — in particular the structural geometry of experience and the experience of time.
 
-The primary deliverable is a peer-reviewed review manuscript. It will be accompanied by an open companion resource consisting of the extraction dataset and taxonomy tables hosted on OSF. An interactive web resource may be developed subsequently as a dissemination layer for the field.
+The deliverable is a manuscript targeted at *Nature Human Behaviour* (primary; following the Yaron, Melloni, Pitts & Mudrik 2022 scoping-review precedent) or *Neuroscience & Biobehavioral Reviews*, with *Neuroscience of Consciousness* as a fallback. The manuscript will be accompanied by an open companion resource — extraction spreadsheet and taxonomy table on OSF, and an interactive website providing measure-by-measure look-up for the field.
 
 ---
 
@@ -56,24 +56,13 @@ The primary deliverable is a peer-reviewed review manuscript. It will be accompa
 | Field | Value |
 |---|---|
 | Working title | Complexity measures of consciousness: a methodological review of what they compute and what they can warrant |
-| Protocol version / date | v0.5 / 2026-05-29 (draft, holding for supervisor sign-off before OSF registration) |
+| Protocol version / date | v0.4.3 / 2026-05-14 |
 | Registry | OSF Registries (target) |
 | Lead reviewer | Samson Odan |
 | Provisional authorship (in order) | Samson Odan; Lucia Melloni; Andrej Bicanski; Jurgen Jost. Adam Barrett and Anil Seth to be added on contribution. |
 | Screening model | Single human reviewer with AI-assisted second screening (Elicit, calibrated 2026-05-28) + ASReview active-learning prioritisation; within-person test-retest for self-consistency (see §B7). Precedent: Yaron, Melloni, Pitts & Mudrik 2022, *Nat Hum Behav* |
 | Arbiter | Any two of Jurgen Jost, Lucia Melloni, Andrej Bicanski |
-| Funding | Max Planck School of Cognition |
-| Progress-review cadence | Monthly. |
-| Milestone schedule | **Late June 2026 — operational checkpoint** (multi-database search executed and locked; deduplicated corpus available; Elicit + ASReview screening pipeline operational on the dedup corpus; database access fully confirmed). **Late July 2026 — substantive scientific checkpoint** (bulk screening progressing; preliminary corpus characterisation; early Axis-1 mapping on includes-so-far). **August–September 2026 → synthesis and manuscript trajectory** (extraction underway; gap heatmap emerging; manuscript outline). |
-
-#### B1.2 Author ORCIDs and affiliations
-
-| Author | ORCID | Affiliations |
-|---|---|---|
-| Samson Odan | 0009-0002-2909-0831 | (1) Max Planck Institute for Human Cognitive and Brain Sciences, Dept. of Psychology; (2) Max Planck Institute for Mathematics in the Sciences; (3) ScaDS.AI Dresden/Leipzig; (4) Max Planck School of Cognition; (5) Predictive Brain Department, University Alliance Ruhr, Faculty of Psychology, Ruhr-University Bochum |
-| Lucia Melloni | 0000-0001-8743-5071 | (1) Predictive Brain Department, University Alliance Ruhr, Faculty of Psychology, Ruhr-University Bochum; (2) Department of Neurology, NYU Grossman School of Medicine; (3) Canadian Institute for Advanced Research (CIFAR), Brain, Mind, and Consciousness Program |
-| Andrej Biçanski | 0000-0003-3356-1034 | (1) Max Planck Institute for Human Cognitive and Brain Sciences, Dept. of Psychology; (2) ScaDS.AI Dresden/Leipzig |
-| Jürgen Jost | 0000-0001-5258-6590 | (1) Max Planck Institute for Mathematics in the Sciences; (2) Max Planck Institute for Human Cognitive and Brain Sciences, Dept. of Psychology; (3) ScaDS.AI Dresden/Leipzig; (4) Santa Fe Institute Santa 1399 Hyde Park Road, Santa Fe, New Mexico 87501, United States of America |
+| Funding | Max Planck School of Cognition (to confirm) |
 | Amendments log | Maintained at the end of this document |
 
 ### B2. Review questions
@@ -237,9 +226,7 @@ The three methodology-only seeds (§B9b — Tononi-Sporns-Edelman 1994; Oizumi-A
 
 #### B6.3 Search audit trail
 
-On the day of the locked multi-database search (TBD, after supervisor sign-off and OSF registration), all six queries will be run within a 24-hour window. Raw query strings, date / time of execution, per-database hit counts, and exported result files will be archived as `search_log_YYYY-MM-DD.txt` plus per-database RIS exports in the OSF project. This file forms the audit trail PRISMA-ScR / JBI methodology requires.
-
-**Execution model (recorded v0.5).** Search execution is **manual via each database's authenticated web interface** (institutional MPI/CBS login: Scopus, Web of Science, PsycINFO via EBSCO, IEEE Xplore confirmed working 2026-05-29; PubMed open-access; Embase access pending confirmation). The locked conceptual query is translated into each database's specific syntax in `database_queries.md`, executed via the database's UI, and exported (RIS / CSV) with the verbatim query string and execution timestamp logged. *Code and automation are deliberately restricted to downstream stages* — deduplication QC, RIS parsing, provenance checks, corpus statistics, clustering, citation-network analysis, and taxonomy / gap analyses — and are not used to issue search queries. This separation keeps the search step auditable by hand at PRISMA-S level while reserving programmatic work for the parts of the pipeline where reproducibility and scale make code preferable.
+On the day of the locked multi-database search (TBD, before OSF registration), all six queries will be run within a 24-hour window. Raw query strings, date / time of execution, per-database hit counts, and exported result files will be archived as `search_log_YYYY-MM-DD.txt` plus per-database RIS exports in the OSF project. This file forms the audit trail PRISMA-ScR / JBI methodology requires.
 
 **Code and protocol archive.** The pilot-search script (`pilot_search.py`), the locked database queries (`database_queries.md`), the PRISMA-ScR / PRISMA-S checklist mapping (`prisma_checklist_mapping.md`), and this protocol are archived on Zenodo with a permanent DOI:
 
@@ -254,7 +241,7 @@ The GitHub source repository linked by Zenodo will be made public on the day of 
 
 **Deduplication.** Bramer method in Zotero plus Rayyan's deduplicator; manual spot-check.
 
-**Screening platform.** Rayyan (free, conflict-tracked) for calibration and screening management where appropriate; **ASReview** (van de Schoot et al. 2021, *Nat Mach Intell*) for active-learning prioritised bulk screening.
+**Screening platform.** Rayyan (free, conflict-tracked) for the calibration phase; **ASReview** (van de Schoot et al. 2021, *Nat Mach Intell*) for the active-learning prioritised screening of the bulk corpus.
 
 **Screening model — single human reviewer with AI-assisted second screening (Elicit) + ASReview active learning + within-person test-retest (revised v0.4.4).**
 
@@ -268,11 +255,11 @@ The lab has no available personnel capacity for a second *human* reviewer in any
 
 4. **Periodic test-retest during bulk screening.** Every 1,000 records, a 1 % random sample of recently-screened records is re-screened blind; drift in κ is logged. If drift becomes substantive (κ < 0.7 across consecutive checks), screening is paused and the rubric reviewed.
 
-5. **AI-assisted second screening (Elicit, revised v0.4.4).** Every record is independently screened by Elicit's systematic-review workflow against a four-criterion rendering of §B6/§B7 eligibility (consciousness research context; empirical neural data application; quantitative complexity-family measures applied; eligible study type). **The verbatim research question and the four criterion prompts as deployed are recorded in `elicit_screening_prompts.md` (canonical reference for reproducibility).** Configuration: strict criteria OFF (scoping-review default), Elicit's binary verdict treated as a *recommendation*, all human–Elicit disagreements reconciled by Samson. No automated post-aggregation override is applied (the as-deployed configuration was shown to dominate any strict-AND alternative on the calibration set — see paragraph below). Elicit's per-criterion calls, rationales, and source quotes are exported (CSV / Excel) and retained as part of the audit trail; screening exports are archived in the OSF project and repository alongside the human reconciliation logs. Records returning no abstract (Elicit silently omits these — ≈ 2.5 % of the calibration set) are flagged and screened manually by exception. The deployment was calibrated against Samson's blind screening on a seeded random 200-record subsample of the PubMed-locked corpus (`calibration_test_plan.md`; calibration outcome reported below).
+5. **AI-assisted second screening (Elicit, revised v0.4.4).** Every record is independently screened by Elicit's systematic-review workflow against a four-criterion rendering of §B6/§B7 eligibility (consciousness research context; empirical neural data application; quantitative complexity-family measures applied; eligible study type). **The verbatim research question and the four criterion prompts as deployed are recorded in `elicit_screening_prompts.md` (canonical reference for reproducibility).** Configuration: strict criteria OFF (scoping-review default), Elicit's binary verdict treated as a *recommendation*, all human–Elicit disagreements reconciled by Samson. No automated post-aggregation override is applied (the as-deployed configuration was shown to dominate any strict-AND alternative on the calibration set — see paragraph below). Elicit's per-criterion calls, rationales, and source quotes are exported and retained as part of the audit trail. Records returning no abstract (Elicit silently omits these — ≈ 2.5 % of the calibration set) are flagged and screened manually by exception. The deployment was calibrated against Samson's blind screening on a seeded random 200-record subsample of the PubMed-locked corpus (`calibration_test_plan.md`; calibration outcome reported below).
 
 6. **Full-text screening (solo reviewer).** Samson performs full-text screening alone; reasons for exclusion logged. Volume at this stage is small (estimated 200–500 papers), making single-pass screening tractable.
 
-7. **Supervisor consultation at month-end milestones.** Jurgen, Lucia, and Andrej review aggregated progress at the end of each month — included-set characteristics, inclusion-rate trajectory, edge cases flagged by Samson — and provide feedback that shapes the next month's rubric. Supervisor input is at the *protocol-revision* level, not at the per-paper screening level.
+7. **Supervisor consultation at month-end milestones.** Jurgen, Lucia, and Andrej review aggregated progress at the end of each rotation month — included-set characteristics, inclusion-rate trajectory, edge cases flagged by Samson — and provide feedback that shapes the next month's rubric. Supervisor input is at the *protocol-revision* level, not at the per-paper screening level.
 
 **Transparency.** The deviation from PRISMA's default dual *independent human* screening is documented here, in §C, in the OSF registration, and in the manuscript's *Limitations* section. The Yaron et al. 2022 NHB review is cited as published precedent for a single-human-reviewer scoping review in the same field; the Elicit AI-second-screening layer is documented as an additional reliability safeguard, not as a substitute for a second human reviewer.
 
@@ -280,7 +267,7 @@ The lab has no available personnel capacity for a second *human* reviewer in any
 
 **PRISMA flow diagram** maintained from Rayyan / ASReview exports.
 
-**Data extraction.** A piloted structured extraction form will be implemented in a version-controlled tabular environment and piloted on 10 studies, then revised if needed before bulk extraction begins. Samson extracts every included paper. A 10 % random sample is re-extracted by Samson after a ≥ 1-month delay (intra-rater test-retest); deviations are logged and resolved by re-reading the source. Supervisors review extraction outputs at month-end milestones but are not part of the extraction pipeline.
+**Data extraction.** Piloted form (Google Sheet or Airtable). Pilot on 10 studies, then revise. Samson extracts every included paper. A 10 % random sample is re-extracted by Samson after a ≥ 1-month delay (intra-rater test-retest); deviations are logged and resolved by re-reading the source. Supervisors review the extraction outputs at month-end milestones but are not part of the extraction pipeline.
 
 ### B8. Data items (extraction fields)
 
@@ -365,7 +352,7 @@ The appraisal is therefore a **measurement-methodology checklist**, not a risk-o
 5. **Reproducibility.** Are code, data, and exact parameter settings reported (Y / N / partial)?
 6. **Interpretation–warrant fit.** Is the consciousness claim commensurate with what the measure mathematically computes (e.g., a correlational measure not claimed as directional; an amplitude-only proxy not claimed as effective connectivity)?
 
-Each item rated *low concern / some concern / high concern*. Pilot the checklist on the same 10-study set used for the §B8 extraction-form pilot, revise if needed, then apply to the full corpus. **Items 1, 5, and 6 feed the §B11 misapplication register directly.**
+Each item rated *low concern / some concern / high concern*. Pilot the checklist on 10 studies, revise, then apply to the full corpus. **Items 1, 5, and 6 feed the §B11 misapplication register directly.**
 
 Under the solo-reviewer model (§B7), Samson applies the checklist alone. A 10 % random sample is re-appraised by Samson after a ≥ 1-month delay (intra-rater test-retest); persistent deviations trigger review of the checklist rubric. Supervisors review the appraisal outputs at month-end milestones.
 
@@ -460,9 +447,8 @@ This taxonomy is the review's **conceptual spine**. It is expected to shift afte
 
 ### B14. Ethics & funding
 - No primary data collection; no ethics approval required.
-- Author affiliations are recorded in §B1.2.
-- Funding: Max Planck School of Cognition (lead reviewer's PhD-track funding line; confirmed via Samson's affiliation in §B1.2). No additional external funding for this protocol.
-- The review concerns a field containing competing theoretical frameworks. To minimise interpretive bias, the protocol explicitly restricts scope to methodological mapping and does not adjudicate among theories (§A3).
+- Declare Max Planck School of Cognition affiliation and any other funding.
+- No conflicts of interest anticipated.
 
 ---
 
@@ -477,9 +463,8 @@ Status of the seven decisions raised in v0.2 / v0.3, after the supervisor review
 5. **Taxonomy sign-off — Resolved.** Lucia endorsed the four-axis spine and proposed two further axes (spatial scale, theory anchoring); both adopted in §B12 plus two further axes (causal vs descriptive; validation evidence type). Axis 1 expanded with wSMI and a phase / dynamical-systems family.
 6. **Registration venue — Resolved.** **OSF Registries.**
 7. **Grey-zone calls — Status: agreed.** Anaesthesia-monitoring papers, pharmaco-EEG, simulation-only papers retained as flag-and-decide grey-zone items in §B4.
-8. **Block-2 keyword breadth (Jürgen, 2026-05-29) — Considered; not implemented as a v0.5 protocol change; to be evaluated empirically post-search.** Jürgen raised that Block 2 may be overly broad / heterogeneous and suggested estimating retrieval volume using a narrower term set first (e.g., omitting terms such as “scale-free”). The concern is methodologically legitimate and will be evaluated empirically post-search. v0.5 does not implement pre-registration narrowing of Block 2 because pilot retrieval remains within the planned target band (§B6.1; 5,267 records), the present breadth reflects supervisor-guided expansion aligned with the review taxonomy, and recall is prioritised for methodological mapping. For a scoping review, over-search is recoverable through screening whereas under-search risks omission of relevant measure families. No pre-registration change is therefore implemented.
 
-Monitoring plan (post-search empirical assessment). During the bulk pass, Block 2 sub-families will be tracked against the measure families they populate. After the included set is locked, a term-level contribution analysis can be conducted to assess which Block 2 terms contributed meaningfully to included studies and which yielded negligible signal. Terms with minimal contribution may become candidates for refinement in a future protocol version or follow-on review. This converts the concern from a pre-registration trade-off into an empirical question answered using the included corpus.
+> Remaining open item: **OSF registration timing** — before vs after the multi-database run. To be decided in the next supervisor meeting.
 
 ---
 
@@ -568,14 +553,6 @@ Monitoring plan (post-search empirical assessment). During the bulk pass, Block 
   - *§B1 screening-model row, §C decision 3, and §D risk register updated* to name Elicit explicitly as an AI second-screener and to record that the relevant risks (no second human reviewer; PRISMA dual-screening preference) are mitigated, not eliminated. The Yaron et al. 2022 NHB precedent for single-human-reviewer scoping reviews in this field remains the primary published precedent; the Elicit layer is documented as an additional reliability safeguard, not as a substitute for an independent second human reviewer.
   - *Companion documents added.* `elicit_assessment.md` (objective pre-decision assessment), `calibration_test_plan.md` (pre-registered design and commit thresholds), `calibration_equivalence_audit.md` (16-paper trial confirming decision-equivalence of the four-criterion rendering), `calibration_results.md` (full numbers, disagreement classification, deployment-rule correction), `calibration_adjudications.md` (resolutions for the 5 silently-skipped and 5 maybe-zone records), `calibration_200_screening_reconciled.csv` (working corpus with `post_resolution` audit column), `elicit_metric_calculations.md` (Samson's arithmetic walkthrough, working notes — not part of the formal trail).
   - *`pilot_search.py` — Luppi seed lookup disambiguated.* The bare `Luppi[Author] AND 2022[PDAT] AND synergistic[Title]` lookup matched the NeuroImage 2022 *Metastability, fractal scaling, and synergistic information processing* paper instead of the intended Nat Neurosci 2022 *A synergistic core for human brain evolution and cognition* paper (PMID 35618951). Lookup tightened with `AND core[Title]`; `calibration_seeds.ris` regenerated; canonical seed re-tested in Elicit (Include, score 3.5).
-- **v0.5 — 2026-05-29 (draft; holding for supervisor sign-off before OSF registration; change-audited 2026-05-29 PM in `v0.5_change_audit_2026-05-29.md` — no methodological drift identified).** Administrative + decision-record changes folding in Jürgen's 2026-05-29 reply and the v0.4.4 Elicit calibration outcome; no methodology changes from v0.4.4.
-  - *§B1 + new §B1.2 — author ORCIDs and affiliations.* ORCIDs recorded for all four lead authors (Samson 0009-0002-2909-0831; Lucia 0000-0001-8743-5071; Andrej 0000-0003-3356-1034; Jürgen 0000-0001-5258-6590). Affiliations recorded for all four (institution-level only — street addresses omitted; the "Neural Computation Group" sub-unit label dropped from Samson and Andrej's MPI CBS line for consistency with Jürgen's, normalised as "Max Planck Institute for Human Cognitive and Brain Sciences, Dept. of Psychology"): Samson (MPI CBS / MPI MIS / ScaDS.AI Dresden-Leipzig / Max Planck School of Cognition / Ruhr-University Bochum); Lucia (Ruhr-University Bochum / NYU Grossman / CIFAR); Andrej (MPI CBS / ScaDS.AI Dresden-Leipzig); Jürgen (MPI MIS / MPI CBS / ScaDS.AI Dresden-Leipzig / Santa Fe Institute).
-  - *§B1 — cadence and three-stage milestone schedule.* Progress-review cadence: monthly. Milestone schedule revised (2026-05-29 PM) from a single end-of-July milestone to three checkpoints: late June 2026 (operational checkpoint), late July 2026 (substantive scientific checkpoint), August–September 2026 (synthesis and manuscript trajectory). Adopted in response to Jürgen's 2026-05-29 cadence / first-milestone questions.
-  - *§C decision 8 (new) — Block-2 keyword breadth: considered; not implemented as a v0.5 protocol change; to be evaluated empirically post-search.* Jürgen's 2026-05-29 suggestion to estimate retrieval volume with fewer keywords first (citing "scale-free" as a candidate for removal) is acknowledged as methodologically legitimate but not implemented as a pre-registration change: the v0.3 → v0.4.1 pilot rounds executed the "estimate first" procedure and returned 5,267 PubMed records — well inside the 3–15 k target band registered in v0.3; the current breadth is Lucia-driven and mirrors the Chis-Ciure / Melloni / Northoff 2024 *NBR* authoritative measure mapping; the locked search is on Zenodo, and pre-emptively unlocking it forces re-pilot with seed-miss risk on the Toker / Luppi / Schartner lines. **Monitoring plan**: during the bulk pass we track which Block 2 sub-families populate which Axis 1 families, and after the included set is locked a term-level contribution analysis on the included set will be conducted empirically and reported in the methods writeup. The concern is therefore *acknowledged → monitored → empirically assessed*, not declined.
-  - *§B6.3 — manual search-execution clause (new).* The protocol now explicitly states that search execution is manual via each database's authenticated web interface, with code restricted to downstream QC / parsing / analysis. This documents the existing execution model after librarian confirmation (Scopus / Web of Science / PsycINFO via EBSCO / IEEE Xplore via MPI/CBS login; Embase pending) and is a clarification of the execution model, not a methodology change.
-  - *§B14 — affiliations cross-reference + funding confirmation.* Affiliations live in §B1.2; §B14 funding line confirmed as Max Planck School of Cognition (via Samson's affiliation entry); placeholder framing removed.
-  - *Editorial wording sweep (2026-05-29 morning, no separate version bump).* `wording_audit_2026-05-29.md` documents three precision edits to §Executive summary, §A2 review aim 1, and §B12 Coverage check — all wording-only, no scientific or methodological drift. Captured here so the v0.4.4 → v0.5 diff has full attribution.
-  - *No §B6 / §B7 / §B12 substantive changes.* All search blocks, screening pipeline (including the v0.4.4 Elicit deployment), and taxonomy axes / family lists are unchanged from v0.4.4.
 
 ---
 

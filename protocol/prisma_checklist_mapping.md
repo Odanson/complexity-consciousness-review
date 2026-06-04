@@ -1,6 +1,6 @@
 # PRISMA-ScR + PRISMA-S checklist mapping
 
-**Companion to:** `prisma_protocol.md` v0.4.1 (2026-05-11)
+**Companion to:** `prisma_protocol.md` v0.5 (2026-05-29 draft for OSF registration)
 **Purpose.** One-page mapping showing where each PRISMA-ScR (Tricco et al. 2018, *Ann Intern Med*) and PRISMA-S (Rethlefsen et al. 2021, *Syst Rev*) item is addressed in the protocol. To be uploaded to OSF alongside the protocol at registration so reviewers can verify compliance without hunting.
 
 ---
@@ -17,20 +17,20 @@
 | 6 | Methods | Eligibility criteria | §B3 PECO + §B4 inclusion / exclusion / grey-zone criteria |
 | 7 | Methods | Information sources | §B5 (six databases with per-database rationale; preprints; hand-search; Citationchaser; expert elicitation) |
 | 8 | Methods | Search | §B6 (locked Block 1 / Block 2 / Block 3 PubMed string + companion `database_queries.md` with five translations) |
-| 9 | Methods | Selection of sources of evidence | §B7 (Rayyan + ASReview workflow; calibrated single-reviewer + active-learning model; Yaron 2022 NHB precedent) |
-| 10 | Methods | Data charting process | §B7 data extraction paragraph + §B8 extraction-fields list; pilot on 10 studies, 20 % quality-control re-extraction |
+| 9 | Methods | Selection of sources of evidence | §B7 (single human reviewer + Elicit AI second-screening + ASReview active-learning prioritisation; within-person test-retest; pre-registered Elicit calibration documented in `calibration_results.md`; Yaron 2022 *Nat Hum Behav* precedent for the single-human-reviewer baseline) |
+| 10 | Methods | Data charting process | §B7 data extraction paragraph + §B8 extraction-fields list; piloted structured extraction form on 10 studies, then revised before bulk extraction; 10 % intra-rater re-extraction after ≥ 1-month delay |
 | 11 | Methods | Data items | §B8 extraction fields (12 categories) |
-| 12 | Methods | Critical appraisal of individual sources of evidence (*optional*) | §B10 (we elect to apply a measurement-methodology checklist; six items rated low / some concern / high) |
+| 12 | Methods | Critical appraisal of individual sources of evidence (*optional*) | §B10 (we elect to apply a measurement-methodology checklist; six items rated low / some concern / high; piloted on the same 10-study set used for §B8 extraction-form pilot) |
 | 13 | Methods | Synthesis of results | §B11 narrative-synthesis plan + §B12 taxonomy (eight axes) |
-| 14 | Results | Selection of sources of evidence | Pending — will be populated post-multi-database run (PRISMA flow diagram from Rayyan exports, §B7) |
+| 14 | Results | Selection of sources of evidence | Pending — populated post-multi-database run (PRISMA flow diagram from Elicit + ASReview exports, §B7) |
 | 15 | Results | Characteristics of sources of evidence | Pending — extraction output |
 | 16 | Results | Critical appraisal within sources of evidence | Pending — §B10 checklist outputs |
 | 17 | Results | Results of individual sources of evidence | Pending — per-paper extraction outputs |
 | 18 | Results | Synthesis of results | Pending — §B11 tables + heatmap + misapplication register |
 | 19 | Discussion | Summary of evidence | Pending — manuscript draft |
-| 20 | Discussion | Limitations | Pending; will include the documented Sitt 2014 database miss (§B6.2), single-reviewer screening deviation (§B7), and scope decisions in §A3 |
+| 20 | Discussion | Limitations | Pending; will include the documented Sitt 2014 database miss (§B6.2), the single-human-reviewer with AI-assisted second-screening model (§B7), and scope decisions in §A3 |
 | 21 | Discussion | Conclusions | Pending — manuscript draft |
-| 22 | Funding | Funding | §B14 (Max Planck School of Cognition) |
+| 22 | Funding | Funding | §B14 (Max Planck School of Cognition; lead reviewer's PhD-track funding line) |
 
 Items 14–21 are Results / Discussion items and are not part of the protocol *per se* — they are populated during execution. PRISMA-ScR expects them to be addressed in the manuscript, not in the protocol. Their slots are reserved here for traceability.
 
@@ -45,14 +45,14 @@ Items 14–21 are Results / Discussion items and are not part of the protocol *p
 | 3 | Information sources & methods | Study registries | Not applicable for this scoping review (we do not search trial registries; no clinical trials are in scope). Documented as N/A. |
 | 4 | Information sources & methods | Online resources and browsing | §B5 hand-search list (12 journals); preprint sources (bioRxiv, medRxiv, arXiv, PsyArXiv) |
 | 5 | Information sources & methods | Citation searching | §B5 (Citationchaser, named per PRISMA-S requirement) + §B9 seed set |
-| 6 | Information sources & methods | Contacts | §B5 expert elicitation (Jurgen, Lucia, Andrej, Anil Seth, Adam Barrett); each suggestion logged with capture-vs-miss status |
+| 6 | Information sources & methods | Contacts | §B5 expert elicitation (Jürgen Jost, Lucia Melloni, Andrej Biçanski; planned external collaborators Anil Seth and Adam Barrett); each suggestion logged with capture-vs-miss status |
 | 7 | Information sources & methods | Other methods | None used beyond items 1–6 |
 | 8 | Information sources & methods | Inclusion and exclusion criteria | §B4 (replicated here for cross-reference to the search) |
 | 9 | Search strategies | Full search strategies | §B6 (PubMed canonical, in full); `database_queries.md` (five database translations, in full) |
 | 10 | Search strategies | Limits and restrictions | §B6 (English; 1990-01-01 to search date); §B4 inclusion criterion 5 |
 | 11 | Search strategies | Search filters | None applied (we do not use validated filters such as Cochrane Highly Sensitive Search Strategy) |
 | 12 | Search strategies | Prior work | §B6.1 pilot results table (v0.3 → 4,580; v0.4.1 → 5,267) and §B6.2 seed-paper validation |
-| 13 | Peer review | Search peer review | Internal peer review by Lucia Melloni and Andrej Bicanski (docx markup 2026-05-10 + email 2026-05-10); changes recorded in amendments log v0.4 / v0.4.1 |
+| 13 | Peer review | Search peer review | Internal peer review by Lucia Melloni and Andrej Biçanski (docx markup 2026-05-10 + email 2026-05-10) and by Jürgen Jost (2026-05-29 reply); changes recorded in amendments log v0.4 / v0.4.1 / v0.5 |
 | 14 | Managing records | Total records identified | §B6.1 (PubMed = 5,267 as of 2026-05-12; multi-database total pending) |
 | 15 | Managing records | Deduplication | §B7 (Bramer method in Zotero + Rayyan deduplicator + manual spot-check) |
 | 16 | Reporting | Date of search | §B6.1 (pilot dates); locked-search date to be recorded as `search_log_YYYY-MM-DD.txt` per §B6.3 |
@@ -65,7 +65,7 @@ Items 14–21 are Results / Discussion items and are not part of the protocol *p
 
 **PRISMA-S:** 14 of 16 items addressed in the protocol. Item 3 (study registries) is N/A and documented; item 11 (search filters) is N/A.
 
-**Items pending registration-time entries:** authorship ORCIDs (§B1); estimated milestone dates (§B1); Zenodo DOI for the code archive (§B6.3).
+**Items pending registration-time entries:** OSF registration DOI (§B1, §B6.3) — to be added when the v0.5 protocol is registered on OSF Registries after supervisor sign-off. Author ORCIDs (§B1.2), affiliations (§B1.2), and the milestone schedule (§B1) are all populated in v0.5; the Zenodo concept DOI (10.5281/zenodo.20140263) and v0.4.1 specific-release DOI (10.5281/zenodo.20140262) for the code/protocol archive are recorded in §B6.3 and will be updated to the v0.5 specific-release DOI when v0.5 is tagged on GitHub and auto-archived to Zenodo.
 
 ---
 

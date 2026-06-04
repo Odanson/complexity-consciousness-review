@@ -1,0 +1,146 @@
+TY  - JOUR
+AU  - Casali AG
+AU  - Gosseries O
+AU  - Rosanova M
+AU  - Boly M
+AU  - Sarasso S
+AU  - Casali KR
+AU  - Casarotto S
+AU  - Bruno MA
+AU  - Laureys S
+AU  - Tononi G
+AU  - Massimini M
+TI  - A theoretically based index of consciousness independent of sensory processing and behavior.
+AB  - One challenging aspect of the clinical assessment of brain-injured, unresponsive patients is the lack of an objective measure of consciousness that is independent of the subject's ability to interact with the external environment. Theoretical considerations suggest that consciousness depends on the brain's ability to support complex activity patterns that are, at once, distributed among interacting cortical areas (integrated) and differentiated in space and time (information-rich). We introduce and test a theory-driven index of the level of consciousness called the perturbational complexity index (PCI). PCI is calculated by (i) perturbing the cortex with transcranial magnetic stimulation (TMS) to engage distributed interactions in the brain (integration) and (ii) compressing the spatiotemporal pattern of these electrocortical responses to measure their algorithmic complexity (information). We test PCI on a large data set of TMS-evoked potentials recorded in healthy subjects during wakefulness, dreaming, nonrapid eye movement sleep, and different levels of sedation induced by anesthetic agents (midazolam, xenon, and propofol), as well as in patients who had emerged from coma (vegetative state, minimally conscious state, and locked-in syndrome). PCI reliably discriminated the level of consciousness in single individuals during wakefulness, sleep, and anesthesia, as well as in patients who had emerged from coma and recovered a minimal level of consciousness. PCI can potentially be used for objective determination of the level of consciousness at the bedside.
+JO  - Science translational medicine
+PY  - 2013
+AN  - 23946194
+UR  - https://pubmed.ncbi.nlm.nih.gov/23946194/
+ER  - 
+TY  - JOUR
+AU  - Casarotto S
+AU  - Comanducci A
+AU  - Rosanova M
+AU  - Sarasso S
+AU  - Fecchio M
+AU  - Napolitani M
+AU  - Pigorini A
+AU  - G Casali A
+AU  - Trimarchi PD
+AU  - Boly M
+AU  - Gosseries O
+AU  - Bodart O
+AU  - Curto F
+AU  - Landi C
+AU  - Mariotti M
+AU  - Devalle G
+AU  - Laureys S
+AU  - Tononi G
+AU  - Massimini M
+TI  - Stratification of unresponsive patients by an independently validated index of brain complexity.
+AB  - OBJECTIVE: Validating objective, brain-based indices of consciousness in behaviorally unresponsive patients represents a challenge due to the impossibility of obtaining independent evidence through subjective reports. Here we address this problem by first validating a promising metric of consciousness-the Perturbational Complexity Index (PCI)-in a benchmark population who could confirm the presence or absence of consciousness through subjective reports, and then applying the same index to patients with disorders of consciousness (DOCs). METHODS: The benchmark population encompassed 150 healthy controls and communicative brain-injured subjects in various states of conscious wakefulness, disconnected consciousness, and unconsciousness. Receiver operating characteristic curve analysis was performed to define an optimal cutoff for discriminating between the conscious and unconscious conditions. This cutoff was then applied to a cohort of noncommunicative DOC patients (38 in a minimally conscious state [MCS] and 43 in a vegetative state [VS]). RESULTS: We found an empirical cutoff that discriminated with 100% sensitivity and specificity between the conscious and the unconscious conditions in the benchmark population. This cutoff resulted in a sensitivity of 94.7% in detecting MCS and allowed the identification of a number of unresponsive VS patients (9 of 43) with high values of PCI, overlapping with the distribution of the benchmark conscious condition. INTERPRETATION: Given its high sensitivity and specificity in the benchmark and MCS population, PCI offers a reliable, independently validated stratification of unresponsive patients that has important physiopathological and therapeutic implications. In particular, the high-PCI subgroup of VS patients may retain a capacity for consciousness that is not expressed in behavior. Ann Neurol 2016;80:718-729.
+JO  - Annals of neurology
+PY  - 2016
+AN  - 27717082
+UR  - https://pubmed.ncbi.nlm.nih.gov/27717082/
+ER  - 
+TY  - JOUR
+AU  - Schartner M
+AU  - Seth A
+AU  - Noirhomme Q
+AU  - Boly M
+AU  - Bruno MA
+AU  - Laureys S
+AU  - Barrett A
+TI  - Complexity of Multi-Dimensional Spontaneous EEG Decreases during Propofol Induced General Anaesthesia.
+AB  - Emerging neural theories of consciousness suggest a correlation between a specific type of neural dynamical complexity and the level of consciousness: When awake and aware, causal interactions between brain regions are both integrated (all regions are to a certain extent connected) and differentiated (there is inhomogeneity and variety in the interactions). In support of this, recent work by Casali et al (2013) has shown that Lempel-Ziv complexity correlates strongly with conscious level, when computed on the EEG response to transcranial magnetic stimulation. Here we investigated complexity of spontaneous high-density EEG data during propofol-induced general anaesthesia. We consider three distinct measures: (i) Lempel-Ziv complexity, which is derived from how compressible the data are; (ii) amplitude coalition entropy, which measures the variability in the constitution of the set of active channels; and (iii) the novel synchrony coalition entropy (SCE), which measures the variability in the constitution of the set of synchronous channels. After some simulations on Kuramoto oscillator models which demonstrate that these measures capture distinct 'flavours' of complexity, we show that there is a robustly measurable decrease in the complexity of spontaneous EEG during general anaesthesia.
+JO  - PloS one
+PY  - 2015
+AN  - 26252378
+UR  - https://pubmed.ncbi.nlm.nih.gov/26252378/
+ER  - 
+TY  - JOUR
+AU  - Schartner MM
+AU  - Carhart-Harris RL
+AU  - Barrett AB
+AU  - Seth AK
+AU  - Muthukumaraswamy SD
+TI  - Increased spontaneous MEG signal diversity for psychoactive doses of ketamine, LSD and psilocybin.
+AB  - What is the level of consciousness of the psychedelic state? Empirically, measures of neural signal diversity such as entropy and Lempel-Ziv (LZ) complexity score higher for wakeful rest than for states with lower conscious level like propofol-induced anesthesia. Here we compute these measures for spontaneous magnetoencephalographic (MEG) signals from humans during altered states of consciousness induced by three psychedelic substances: psilocybin, ketamine and LSD. For all three, we find reliably higher spontaneous signal diversity, even when controlling for spectral changes. This increase is most pronounced for the single-channel LZ complexity measure, and hence for temporal, as opposed to spatial, signal diversity. We also uncover selective correlations between changes in signal diversity and phenomenological reports of the intensity of psychedelic experience. This is the first time that these measures have been applied to the psychedelic state and, crucially, that they have yielded values exceeding those of normal waking consciousness. These findings suggest that the sustained occurrence of psychedelic phenomenology constitutes an elevated level of consciousness - as measured by neural signal diversity.
+JO  - Scientific reports
+PY  - 2017
+AN  - 28422113
+UR  - https://pubmed.ncbi.nlm.nih.gov/28422113/
+ER  - 
+TY  - JOUR
+AU  - Sitt JD
+AU  - King JR
+AU  - El Karoui I
+AU  - Rohaut B
+AU  - Faugeras F
+AU  - Gramfort A
+AU  - Cohen L
+AU  - Sigman M
+AU  - Dehaene S
+AU  - Naccache L
+TI  - Large scale screening of neural signatures of consciousness in patients in a vegetative or minimally conscious state.
+AB  - In recent years, numerous electrophysiological signatures of consciousness have been proposed. Here, we perform a systematic analysis of these electroencephalography markers by quantifying their efficiency in differentiating patients in a vegetative state from those in a minimally conscious or conscious state. Capitalizing on a review of previous experiments and current theories, we identify a series of measures that can be organized into four dimensions: (i) event-related potentials versus ongoing electroencephalography activity; (ii) local dynamics versus inter-electrode information exchange; (iii) spectral patterns versus information complexity; and (iv) average versus fluctuations over the recording session. We analysed a large set of 181 high-density electroencephalography recordings acquired in a 30 minutes protocol. We show that low-frequency power, electroencephalography complexity, and information exchange constitute the most reliable signatures of the conscious state. When combined, these measures synergize to allow an automatic classification of patients' state of consciousness.
+JO  - Brain : a journal of neurology
+PY  - 2014
+AN  - 24919971
+UR  - https://pubmed.ncbi.nlm.nih.gov/24919971/
+ER  - 
+TY  - JOUR
+AU  - Carhart-Harris RL
+AU  - Leech R
+AU  - Hellyer PJ
+AU  - Shanahan M
+AU  - Feilding A
+AU  - Tagliazucchi E
+AU  - Chialvo DR
+AU  - Nutt D
+TI  - The entropic brain: a theory of conscious states informed by neuroimaging research with psychedelic drugs.
+AB  - Entropy is a dimensionless quantity that is used for measuring uncertainty about the state of a system but it can also imply physical qualities, where high entropy is synonymous with high disorder. Entropy is applied here in the context of states of consciousness and their associated neurodynamics, with a particular focus on the psychedelic state. The psychedelic state is considered an exemplar of a primitive or primary state of consciousness that preceded the development of modern, adult, human, normal waking consciousness. Based on neuroimaging data with psilocybin, a classic psychedelic drug, it is argued that the defining feature of "primary states" is elevated entropy in certain aspects of brain function, such as the repertoire of functional connectivity motifs that form and fragment across time. Indeed, since there is a greater repertoire of connectivity motifs in the psychedelic state than in normal waking consciousness, this implies that primary states may exhibit "criticality," i.e., the property of being poised at a "critical" point in a transition zone between order and disorder where certain phenomena such as power-law scaling appear. Moreover, if primary states are critical, then this suggests that entropy is suppressed in normal waking consciousness, meaning that the brain operates just below criticality. It is argued that this entropy suppression furnishes normal waking consciousness with a constrained quality and associated metacognitive functions, including reality-testing and self-awareness. It is also proposed that entry into primary states depends on a collapse of the normally highly organized activity within the default-mode network (DMN) and a decoupling between the DMN and the medial temporal lobes (which are normally significantly coupled). These hypotheses can be tested by examining brain activity and associated cognition in other candidate primary states such as rapid eye movement (REM) sleep and early psychosis and comparing these with non-primary states such as normal waking consciousness and the anaesthetized state.
+JO  - Frontiers in human neuroscience
+PY  - 2014
+AN  - 24550805
+UR  - https://pubmed.ncbi.nlm.nih.gov/24550805/
+ER  - 
+TY  - JOUR
+AU  - Frohlich J
+AU  - Chiang JN
+AU  - Mediano PAM
+AU  - Nespeca M
+AU  - Saravanapandian V
+AU  - Toker D
+AU  - Dell'Italia J
+AU  - Hipp JF
+AU  - Jeste SS
+AU  - Chu CJ
+AU  - Bird LM
+AU  - Monti MM
+TI  - Neural complexity is a common denominator of human consciousness across diverse regimes of cortical dynamics.
+AB  - What is the common denominator of consciousness across divergent regimes of cortical dynamics? Does consciousness show itself in decibels or in bits? To address these questions, we introduce a testbed for evaluating electroencephalogram (EEG) biomarkers of consciousness using dissociations between neural oscillations and consciousness caused by rare genetic disorders. Children with Angelman syndrome (AS) exhibit sleep-like neural dynamics during wakefulness. Conversely, children with duplication 15q11.2-13.1 syndrome (Dup15q) exhibit wake-like neural dynamics during non-rapid eye movement (NREM) sleep. To identify highly generalizable biomarkers of consciousness, we trained regularized logistic regression classifiers on EEG data from wakefulness and NREM sleep in children with AS using both entropy measures of neural complexity and spectral (i.e., neural oscillatory) EEG features. For each set of features, we then validated these classifiers using EEG from neurotypical (NT) children and abnormal EEGs from children with Dup15q. Our results show that the classification performance of entropy-based EEG biomarkers of conscious state is not upper-bounded by that of spectral EEG features, which are outperformed by entropy features. Entropy-based biomarkers of consciousness may thus be highly adaptable and should be investigated further in situations where spectral EEG features have shown limited success, such as detecting covert consciousness or anesthesia awareness.
+JO  - Communications biology
+PY  - 2022
+AN  - 36522453
+UR  - https://pubmed.ncbi.nlm.nih.gov/36522453/
+ER  - 
+TY  - JOUR
+AU  - Luppi AI
+AU  - Mediano PAM
+AU  - Rosas FE
+AU  - Holland N
+AU  - Fryer TD
+AU  - O'Brien JT
+AU  - Rowe JB
+AU  - Menon DK
+AU  - Bor D
+AU  - Stamatakis EA
+TI  - A synergistic core for human brain evolution and cognition.
+AB  - How does the organization of neural information processing enable humans' sophisticated cognition? Here we decompose functional interactions between brain regions into synergistic and redundant components, revealing their distinct information-processing roles. Combining functional and structural neuroimaging with meta-analytic results, we demonstrate that redundant interactions are predominantly associated with structurally coupled, modular sensorimotor processing. Synergistic interactions instead support integrative processes and complex cognition across higher-order brain networks. The human brain leverages synergistic information to a greater extent than nonhuman primates, with high-synergy association cortices exhibiting the highest degree of evolutionary cortical expansion. Synaptic density mapping from positron emission tomography and convergent molecular and metabolic evidence demonstrate that synergistic interactions are supported by receptor diversity and human-accelerated genes underpinning synaptic function. This information-resolved approach provides analytic tools to disentangle information integration from coupling, enabling richer, more accurate interpretations of functional connectivity, and illuminating how the human neurocognitive architecture navigates the trade-off between robustness and integration.
+JO  - Nature neuroscience
+PY  - 2022
+AN  - 35618951
+UR  - https://pubmed.ncbi.nlm.nih.gov/35618951/
+ER  - 

@@ -4,18 +4,22 @@
 
 Protocol, search strategy, and pilot code for a methodological scoping review of complexity measures applied to neural data in consciousness research.
 
-The review catalogues every quantitative complexity measure that has been applied to neural recordings in a consciousness context, classifies them along nine orthogonal axes (mathematical lineage, mathematical primitive, data requirement, spatial scale, temporal granularity, theory anchoring, inferential status, validation evidence, aspect of consciousness), audits the fit between each measure's mathematical content and the claims made with it, and flags systematic gaps. Reporting follows **PRISMA-ScR** (Tricco et al. 2018) and **PRISMA-S** (Rethlefsen et al. 2021); methodology follows **JBI** scoping-review guidance (Peters et al. 2020; Pollock et al. 2023).
+The review systematically maps quantitative complexity measures applied to neural recordings in consciousness research, classifies included measures along eight orthogonal axes (mathematical primitive, data requirement, spatial scale, temporal granularity, theory anchoring, inferential status, validation evidence, aspect of consciousness), audits the fit between each included measure's mathematical content and the claims made with it, and identifies conceptual and methodological gaps. Reporting follows **PRISMA-ScR** (Tricco et al. 2018) and **PRISMA-S** (Rethlefsen et al. 2021); methodology follows **JBI** scoping-review guidance (Peters et al. 2020; Pollock et al. 2023).
 
 ## Status
 
 | Item | Status |
 |---|---|
-| Protocol version | **v0.4.2** (2026-05-12) |
+| Protocol version | **v0.5** (2026-05-29, draft — holding for supervisor sign-off before OSF registration) |
 | Search strategy | Locked in PubMed; five other database translations drafted |
+| Search execution | Manual via each database's authenticated UI (institutional MPI/CBS login); code restricted to downstream QC, parsing, and analysis |
 | PubMed hit count | 5,267 records (pilot, 2026-05-12) |
 | Empirical seeds captured | 7 / 8 (Sitt 2014 = documented DB miss, recovered via citation tracking) |
+| Screening model | Single human reviewer + Elicit AI second screening (calibrated 2026-05-28; κ = 0.843, recall 98.1 %, seeds 8/8) |
+| Database access | Confirmed via MPI/CBS login: Scopus, Web of Science, PsycINFO (EBSCO), IEEE Xplore. Embase: confirmation pending |
+| OSF workspace | Private workspace created 2026-05-29 (ORCID-linked, EU-Frankfurt storage); deliberately *unregistered*, *non-public*, and *unpopulated* pending v0.5 sign-off + change-audit clearance |
 | Code archive | Zenodo, see DOI badge above |
-| OSF registration | Pending |
+| OSF registration | Pending v0.5 supervisor sign-off |
 
 ## Authors
 

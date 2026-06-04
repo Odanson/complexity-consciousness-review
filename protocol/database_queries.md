@@ -1,9 +1,9 @@
 # Locked search strategy — six database queries
 
-**Companion to:** `prisma_protocol.md` §B6
-**Status:** Locked v1.0
-**Pilot date:** 2026-05-07
-**Reference hit count (PubMed):** 4,580 records
+**Companion to:** `prisma_protocol.md` §B6 (protocol v0.5, 2026-05-29 draft for OSF registration)
+**Status:** Locked v1.0 (Block 2 expanded through v0.4.1 — see protocol §B6 preamble for the expansion provenance)
+**Pilot date (canonical PubMed):** 2026-05-12 (v0.4.1 re-pilot)
+**Reference hit count (PubMed):** **5,267 records** (v0.4.1 pilot; v0.3 baseline was 4,580 before the v0.4 phase / dynamical-systems and v0.4.1 TTC family expansions)
 
 > Each query below preserves the same three-block Boolean structure (Block 1 = consciousness / state, Block 2 = complexity / information / dynamics, Block 3 = neural data) and translates only the field-tag syntax, phrase quoting, and date / language filters to the database's native query language. The PubMed query in §0 is the canonical reference; if any term needs to change, change it there first, then re-derive the others.
 
@@ -28,22 +28,35 @@ OR meditation OR mindfulness OR dream* OR lucid)
 **Block 2 — Complexity / information / dynamics**
 ```
 ("Lempel-Ziv" OR LZc OR LZ76 OR LZW OR compressibility
-OR "perturbational complexity" OR PCI OR "PCI-state"
+OR "Kolmogorov complexity" OR "Kolmogorov signal complexity" OR KSC
+OR "perturbational complexity" OR PCI OR "PCI-state" OR "ST-PCI"
+OR "state transitions complexity index"
 OR "integrated information" OR IIT OR phi
 OR "causal density" OR "causal emergence" OR "phi-ID"
-OR "information decomposition"
+OR "information decomposition" OR "state differentiation"
 OR entropy OR "sample entropy" OR "approximate entropy"
 OR "permutation entropy" OR "multiscale entropy" OR "spectral entropy"
 OR "transfer entropy" OR "mutual information" OR "Granger causality"
+OR "weighted symbolic mutual information" OR wSMI
 OR "neural complexity" OR "matching complexity"
 OR "neural avalanche*" OR criticality OR "branching parameter"
 OR "long-range temporal correlation*" OR "detrended fluctuation analysis" OR DFA
+OR "multifractal" OR "MF-DFA"
 OR "fractal dimension" OR "correlation dimension" OR "Hurst exponent"
 OR Lyapunov OR chaos
 OR "intrinsic dimensionality" OR "participation ratio" OR manifold
 OR "small-world" OR modularity OR "rich-club" OR "hierarchical complexity"
 OR "signal complexity" OR "signal diversity" OR "EEG complexity"
-OR "complexity measure*" OR "complexity marker*")
+OR "complexity measure*" OR "complexity marker*"
+OR "phase-locking value" OR PLV OR "phase locking value"
+OR "weighted phase-lag index" OR wPLI
+OR metastability OR "chimera state*" OR "chimera-state*"
+OR "phase coherence" OR "phase synchron*"
+OR "autocorrelation window" OR ACW
+OR "power-law exponent" OR PLE
+OR "temporal receptive window*" OR TRW
+OR "scale-free" OR "scale free"
+OR "global signal topography" OR "GS-topography")
 ```
 
 **Block 3 — Neural data**
@@ -57,7 +70,7 @@ OR TMS OR "TMS-EEG" OR "TMS-evoked" OR "TMS evoked"
 OR "transcranial magnetic stimulation")
 ```
 
-**Final.** `Block 1 AND Block 2 AND Block 3`. Filters: English; 1990-01-01 to search date. Hit count on 2026-05-07: **4,580**.
+**Final.** `Block 1 AND Block 2 AND Block 3`. Filters: English; 1990-01-01 to search date. Hit count on 2026-05-12 (v0.4.1 re-pilot after Block-2 expansions): **5,267**.
 
 ---
 
@@ -77,22 +90,35 @@ TITLE-ABS-KEY(
     OR meditation OR mindfulness OR dream* OR lucid)
   AND
    ("Lempel-Ziv" OR LZc OR LZ76 OR LZW OR compressibility
-    OR "perturbational complexity" OR PCI OR "PCI-state"
+    OR "Kolmogorov complexity" OR "Kolmogorov signal complexity" OR KSC
+    OR "perturbational complexity" OR PCI OR "PCI-state" OR "ST-PCI"
+    OR "state transitions complexity index"
     OR "integrated information" OR IIT OR phi
     OR "causal density" OR "causal emergence" OR "phi-ID"
-    OR "information decomposition"
+    OR "information decomposition" OR "state differentiation"
     OR entropy OR "sample entropy" OR "approximate entropy"
     OR "permutation entropy" OR "multiscale entropy" OR "spectral entropy"
     OR "transfer entropy" OR "mutual information" OR "Granger causality"
+    OR "weighted symbolic mutual information" OR wSMI
     OR "neural complexity" OR "matching complexity"
     OR "neural avalanche*" OR criticality OR "branching parameter"
     OR "long-range temporal correlation*" OR "detrended fluctuation analysis" OR DFA
+    OR "multifractal" OR "MF-DFA"
     OR "fractal dimension" OR "correlation dimension" OR "Hurst exponent"
     OR Lyapunov OR chaos
     OR "intrinsic dimensionality" OR "participation ratio" OR manifold
     OR "small-world" OR modularity OR "rich-club" OR "hierarchical complexity"
     OR "signal complexity" OR "signal diversity" OR "EEG complexity"
-    OR "complexity measure*" OR "complexity marker*")
+    OR "complexity measure*" OR "complexity marker*"
+    OR "phase-locking value" OR PLV OR "phase locking value"
+    OR "weighted phase-lag index" OR wPLI
+    OR metastability OR "chimera state*" OR "chimera-state*"
+    OR "phase coherence" OR "phase synchron*"
+    OR "autocorrelation window" OR ACW
+    OR "power-law exponent" OR PLE
+    OR "temporal receptive window*" OR TRW
+    OR "scale-free" OR "scale free"
+    OR "global signal topography" OR "GS-topography")
   AND
    (EEG OR electroencephalograph* OR MEG OR magnetoencephalograph*
     OR iEEG OR ECoG OR intracranial OR "local field potential*" OR LFP
@@ -127,22 +153,35 @@ TS=(
     OR meditation OR mindfulness OR dream* OR lucid)
   AND
    ("Lempel-Ziv" OR LZc OR LZ76 OR LZW OR compressibility
-    OR "perturbational complexity" OR PCI OR "PCI-state"
+    OR "Kolmogorov complexity" OR "Kolmogorov signal complexity" OR KSC
+    OR "perturbational complexity" OR PCI OR "PCI-state" OR "ST-PCI"
+    OR "state transitions complexity index"
     OR "integrated information" OR IIT OR phi
     OR "causal density" OR "causal emergence" OR "phi-ID"
-    OR "information decomposition"
+    OR "information decomposition" OR "state differentiation"
     OR entropy OR "sample entropy" OR "approximate entropy"
     OR "permutation entropy" OR "multiscale entropy" OR "spectral entropy"
     OR "transfer entropy" OR "mutual information" OR "Granger causality"
+    OR "weighted symbolic mutual information" OR wSMI
     OR "neural complexity" OR "matching complexity"
     OR "neural avalanche*" OR criticality OR "branching parameter"
     OR "long-range temporal correlation*" OR "detrended fluctuation analysis" OR DFA
+    OR "multifractal" OR "MF-DFA"
     OR "fractal dimension" OR "correlation dimension" OR "Hurst exponent"
     OR Lyapunov OR chaos
     OR "intrinsic dimensionality" OR "participation ratio" OR manifold
     OR "small-world" OR modularity OR "rich-club" OR "hierarchical complexity"
     OR "signal complexity" OR "signal diversity" OR "EEG complexity"
-    OR "complexity measure*" OR "complexity marker*")
+    OR "complexity measure*" OR "complexity marker*"
+    OR "phase-locking value" OR PLV OR "phase locking value"
+    OR "weighted phase-lag index" OR wPLI
+    OR metastability OR "chimera state*" OR "chimera-state*"
+    OR "phase coherence" OR "phase synchron*"
+    OR "autocorrelation window" OR ACW
+    OR "power-law exponent" OR PLE
+    OR "temporal receptive window*" OR TRW
+    OR "scale-free" OR "scale free"
+    OR "global signal topography" OR "GS-topography")
   AND
    (EEG OR electroencephalograph* OR MEG OR magnetoencephalograph*
     OR iEEG OR ECoG OR intracranial OR "local field potential*" OR LFP
@@ -180,22 +219,35 @@ OR meditation OR mindfulness OR dream* OR lucid)
 **Row 2 — Block 2**
 ```
 ("Lempel-Ziv" OR LZc OR LZ76 OR LZW OR compressibility
-OR "perturbational complexity" OR PCI OR "PCI-state"
+OR "Kolmogorov complexity" OR "Kolmogorov signal complexity" OR KSC
+OR "perturbational complexity" OR PCI OR "PCI-state" OR "ST-PCI"
+OR "state transitions complexity index"
 OR "integrated information" OR IIT OR phi
 OR "causal density" OR "causal emergence" OR "phi-ID"
-OR "information decomposition"
+OR "information decomposition" OR "state differentiation"
 OR entropy OR "sample entropy" OR "approximate entropy"
 OR "permutation entropy" OR "multiscale entropy" OR "spectral entropy"
 OR "transfer entropy" OR "mutual information" OR "Granger causality"
+OR "weighted symbolic mutual information" OR wSMI
 OR "neural complexity" OR "matching complexity"
 OR "neural avalanche*" OR criticality OR "branching parameter"
 OR "long-range temporal correlation*" OR "detrended fluctuation analysis" OR DFA
+OR "multifractal" OR "MF-DFA"
 OR "fractal dimension" OR "correlation dimension" OR "Hurst exponent"
 OR Lyapunov OR chaos
 OR "intrinsic dimensionality" OR "participation ratio" OR manifold
 OR "small-world" OR modularity OR "rich-club" OR "hierarchical complexity"
 OR "signal complexity" OR "signal diversity" OR "EEG complexity"
-OR "complexity measure*" OR "complexity marker*")
+OR "complexity measure*" OR "complexity marker*"
+OR "phase-locking value" OR PLV OR "phase locking value"
+OR "weighted phase-lag index" OR wPLI
+OR metastability OR "chimera state*" OR "chimera-state*"
+OR "phase coherence" OR "phase synchron*"
+OR "autocorrelation window" OR ACW
+OR "power-law exponent" OR PLE
+OR "temporal receptive window*" OR TRW
+OR "scale-free" OR "scale free"
+OR "global signal topography" OR "GS-topography")
 ```
 
 **Row 3 — Block 3**
@@ -230,22 +282,35 @@ Run via Advanced Search → Command Search. IEEE's `("All Metadata":term)` searc
   OR meditation OR mindfulness OR dream* OR lucid))
 AND
 ("All Metadata":("Lempel-Ziv" OR LZc OR LZ76 OR LZW OR compressibility
-  OR "perturbational complexity" OR PCI OR "PCI-state"
+  OR "Kolmogorov complexity" OR "Kolmogorov signal complexity" OR KSC
+  OR "perturbational complexity" OR PCI OR "PCI-state" OR "ST-PCI"
+  OR "state transitions complexity index"
   OR "integrated information" OR IIT OR phi
   OR "causal density" OR "causal emergence" OR "phi-ID"
-  OR "information decomposition"
+  OR "information decomposition" OR "state differentiation"
   OR entropy OR "sample entropy" OR "approximate entropy"
   OR "permutation entropy" OR "multiscale entropy" OR "spectral entropy"
   OR "transfer entropy" OR "mutual information" OR "Granger causality"
+  OR "weighted symbolic mutual information" OR wSMI
   OR "neural complexity" OR "matching complexity"
   OR "neural avalanche*" OR criticality OR "branching parameter"
   OR "long-range temporal correlation*" OR "detrended fluctuation analysis" OR DFA
+  OR "multifractal" OR "MF-DFA"
   OR "fractal dimension" OR "correlation dimension" OR "Hurst exponent"
   OR Lyapunov OR chaos
   OR "intrinsic dimensionality" OR "participation ratio" OR manifold
   OR "small-world" OR modularity OR "rich-club" OR "hierarchical complexity"
   OR "signal complexity" OR "signal diversity" OR "EEG complexity"
-  OR "complexity measure*" OR "complexity marker*"))
+  OR "complexity measure*" OR "complexity marker*"
+  OR "phase-locking value" OR PLV OR "phase locking value"
+  OR "weighted phase-lag index" OR wPLI
+  OR metastability OR "chimera state*" OR "chimera-state*"
+  OR "phase coherence" OR "phase synchron*"
+  OR "autocorrelation window" OR ACW
+  OR "power-law exponent" OR PLE
+  OR "temporal receptive window*" OR TRW
+  OR "scale-free" OR "scale free"
+  OR "global signal topography" OR "GS-topography"))
 AND
 ("All Metadata":(EEG OR electroencephalograph* OR MEG OR magnetoencephalograph*
   OR iEEG OR ECoG OR intracranial OR "local field potential*" OR LFP
@@ -277,22 +342,35 @@ Run via Embase Advanced Search. Field code `:ti,ab,kw` searches title, abstract,
   OR meditation OR mindfulness OR dream* OR lucid):ti,ab,kw)
 AND
 (('Lempel-Ziv' OR LZc OR LZ76 OR LZW OR compressibility
-  OR 'perturbational complexity' OR PCI OR 'PCI-state'
+  OR 'Kolmogorov complexity' OR 'Kolmogorov signal complexity' OR KSC
+  OR 'perturbational complexity' OR PCI OR 'PCI-state' OR 'ST-PCI'
+  OR 'state transitions complexity index'
   OR 'integrated information' OR IIT OR phi
   OR 'causal density' OR 'causal emergence' OR 'phi-ID'
-  OR 'information decomposition'
+  OR 'information decomposition' OR 'state differentiation'
   OR entropy OR 'sample entropy' OR 'approximate entropy'
   OR 'permutation entropy' OR 'multiscale entropy' OR 'spectral entropy'
   OR 'transfer entropy' OR 'mutual information' OR 'Granger causality'
+  OR 'weighted symbolic mutual information' OR wSMI
   OR 'neural complexity' OR 'matching complexity'
   OR 'neural avalanche*' OR criticality OR 'branching parameter'
   OR 'long-range temporal correlation*' OR 'detrended fluctuation analysis' OR DFA
+  OR 'multifractal' OR 'MF-DFA'
   OR 'fractal dimension' OR 'correlation dimension' OR 'Hurst exponent'
   OR Lyapunov OR chaos
   OR 'intrinsic dimensionality' OR 'participation ratio' OR manifold
   OR 'small-world' OR modularity OR 'rich-club' OR 'hierarchical complexity'
   OR 'signal complexity' OR 'signal diversity' OR 'EEG complexity'
-  OR 'complexity measure*' OR 'complexity marker*'):ti,ab,kw)
+  OR 'complexity measure*' OR 'complexity marker*'
+  OR 'phase-locking value' OR PLV OR 'phase locking value'
+  OR 'weighted phase-lag index' OR wPLI
+  OR metastability OR 'chimera state*' OR 'chimera-state*'
+  OR 'phase coherence' OR 'phase synchron*'
+  OR 'autocorrelation window' OR ACW
+  OR 'power-law exponent' OR PLE
+  OR 'temporal receptive window*' OR TRW
+  OR 'scale-free' OR 'scale free'
+  OR 'global signal topography' OR 'GS-topography'):ti,ab,kw)
 AND
 ((EEG OR electroencephalograph* OR MEG OR magnetoencephalograph*
   OR iEEG OR ECoG OR intracranial OR 'local field potential*' OR LFP
@@ -311,7 +389,7 @@ AND [1990-2026]/py
 
 ## Per-database expectations & re-run protocol
 
-The PubMed corpus (4,580) will overlap substantially with Scopus, WoS, and Embase. After deduplication (Bramer method in Zotero + Rayyan), the unique-record total typically lands at ~1.3–1.7× the largest single database. PsycINFO and IEEE Xplore are coverage checks rather than primary contributors.
+The PubMed corpus (5,267 at v0.4.1 pilot) will overlap substantially with Scopus, WoS, and Embase. After deduplication (Bramer method in Zotero + Rayyan + manual spot-check per §B7), the unique-record total typically lands at ~1.3–1.7× the largest single database. PsycINFO and IEEE Xplore are coverage checks rather than primary contributors.
 
 **On the day of the locked search**, run all six queries within a 24-hour window so the date stamps are commensurable. Archive the raw query strings, the date/time, and the per-database hit counts in a single text file (`search_log_YYYY-MM-DD.txt`) and store it in the OSF project alongside this document. That file is part of the audit trail PRISMA-ScR expects.
 

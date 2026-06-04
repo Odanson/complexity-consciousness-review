@@ -1,0 +1,16 @@
+pmid,title,human,elicit,score,c_cons,c_data,c_meas,c_type,strict_and,class,human_reason
+30428706,Association Between Positive Occipital Sharp Transients of Sleep and Lambda Waves.,exclude,include,2.7,maybe,yes,no,yes,exclude,aggregation,No complexity measures
+27531671,Diminished supraspinal pain modulation in patients with mild traumatic brain injury.,exclude,include,2.7,no,yes,maybe,yes,exclude,aggregation,No consciousness relevance
+33285360,ERP markers of action planning and outcome monitoring in human - robot interaction.,exclude,include,2.5,maybe,yes,no,yes,exclude,aggregation,"No consciousness relevance, no complexity measures"
+20633658,Fractal-dimension analysis detects cerebral changes in preterm infants with and without intrauterine growth restriction.,exclude,include,2.5,no,maybe,maybe,yes,exclude,aggregation,No consciousness relevance and no neural data
+26552800,Functional neuroimaging of extraversion-introversion.,exclude,include,2.7,no,yes,maybe,yes,exclude,aggregation,No consciousness relevance
+24436968,Ictal alterations of consciousness during ecstatic seizures.,exclude,include,2.8,yes,maybe,no,maybe,exclude,aggregation,A review of neuroimaging findingd with no complexity-related measure
+2298225,Loss of brainstem acoustic evoked potentials with spontaneous breathing in a patient with supratentorial lesion.,exclude,include,2.5,no,yes,no,yes,exclude,aggregation,"Does not quantify complexity, information, dynamics or related structures,"
+15134712,Pathological theta oscillations in idiopathic generalised epilepsy.,exclude,include,2.5,no,yes,no,yes,exclude,aggregation,No consciousness relevance
+2650011,Supplemental oxygen and quality of sleep in patients with chronic obstructive lung disease.,exclude,include,2.7,maybe,yes,no,yes,exclude,aggregation,"A sleep study using EEG for sleep staging to evaluate oxygen treatment effects, but it does not apply any quantitative complexity, information-theoretic, or neural dynamics measure."
+21911417,The effect of striatal dopaminergic grafts on the neuronal activity in the substantia nigra pars reticulata and subthalamic nucleus in hemiparkinsonian rats.,exclude,include,2.7,no,yes,maybe,yes,exclude,aggregation,No consciousness relevance
+18990620,Detrended fluctuation analysis of intracranial pressure predicts outcome following traumatic brain injury.,exclude,include,3.5,maybe,maybe,yes,yes,include,maybe_zone,"No consciousness relevance and no neural data, but uses a nonlinear measure DFA"
+38136525,From Black Holes Entropy to Consciousness: The Dimensions of the Brain Connectome.,include,exclude,1.4,maybe,no,no,no,exclude,maybe_zone,
+20626893,Investigating the synchronization of hippocampal neural network in response to acute nicotine exposure.,exclude,include,4.3,maybe,yes,yes,yes,include,maybe_zone,No consciousness relevance
+25837427,Large-Scale Persistent Network Reconfiguration Induced by Ketamine in Anesthetized Monkeys: Relevance to Mood Disorders.,exclude,include,4.3,maybe,yes,maybe,yes,include,maybe_zone,"Uses Ketamine, but not in regards to altered state of consciousness, but as antidepressant network mechanism"
+33504952,Out-of-step: brain-heart desynchronization in anxiety disorders.,maybe,exclude,1.4,no,no,no,no,exclude,maybe_zone,

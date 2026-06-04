@@ -127,8 +127,13 @@ EMPIRICAL_SEEDS = [
      'Carhart-Harris[Author] AND 2014[PDAT] AND entropic[Title]'),
     ("Toker et al. 2022 PNAS (consciousness and chaos)",
      'Toker[Author] AND 2022[PDAT] AND consciousness[Title]'),
+    # Disambiguated 2026-05-28: the bare 'synergistic[Title]' lookup also
+    # matched Luppi 2022 NeuroImage "Metastability, fractal scaling, and
+    # synergistic information processing"; adding 'core[Title]' pins this
+    # to the intended Nat Neurosci 2022 "A synergistic core for human brain
+    # evolution and cognition" paper.
     ("Luppi et al. 2022 Nat Neurosci (synergistic core)",
-     'Luppi[Author] AND 2022[PDAT] AND synergistic[Title]'),
+     'Luppi[Author] AND 2022[PDAT] AND synergistic[Title] AND core[Title]'),
 ]
 
 # Methodology-only seeds — included via §B4 exception, not via the
