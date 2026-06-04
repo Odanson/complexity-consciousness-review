@@ -34,3 +34,9 @@ email_to_supervisors.md
 requirements.txt
 prisma_protocol_v0.4.2.docx
 prisma_protocol_v*.docx
+
+.DS_Store
+*.py[cod]
+~$*
+Extra/
+Elicit results/
