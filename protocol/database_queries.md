@@ -1,6 +1,6 @@
-# Locked search strategy — six database queries
+# Locked search strategy — five database queries
 
-**Companion to:** `prisma_protocol.md` §B6 (protocol v0.5, 2026-05-29 draft for OSF registration)
+**Companion to:** `prisma_protocol.md` §B6 (protocol v0.5.1)
 **Status:** Locked v1.0 (Block 2 expanded through v0.4.1 — see protocol §B6 preamble for the expansion provenance)
 **Pilot date (canonical PubMed):** 2026-05-12 (v0.4.1 re-pilot)
 **Reference hit count (PubMed):** **5,267 records** (v0.4.1 pilot; v0.3 baseline was 4,580 before the v0.4 phase / dynamical-systems and v0.4.1 TTC family expansions)
@@ -327,73 +327,14 @@ AND
 
 ---
 
-## §5. Embase (Embase.com / Elsevier interface)
-
-Run via Embase Advanced Search. Field code `:ti,ab,kw` searches title, abstract, and Emtree author keywords.
-
-```
-((consciousness OR 'state of consciousness' OR 'levels of consciousness'
-  OR 'loss of consciousness' OR unconscious* OR wakefulness OR arousal
-  OR anesthesi* OR anaesthesi* OR sedation OR propofol OR sevoflurane
-  OR ketamine OR xenon OR sleep OR NREM OR REM OR 'slow wave sleep'
-  OR 'vegetative state' OR 'unresponsive wakefulness syndrome' OR UWS
-  OR 'minimally conscious state' OR MCS OR coma OR 'locked-in syndrome'
-  OR LIS OR psychedelic* OR psilocybin OR LSD OR DMT OR ayahuasca
-  OR meditation OR mindfulness OR dream* OR lucid):ti,ab,kw)
-AND
-(('Lempel-Ziv' OR LZc OR LZ76 OR LZW OR compressibility
-  OR 'Kolmogorov complexity' OR 'Kolmogorov signal complexity' OR KSC
-  OR 'perturbational complexity' OR PCI OR 'PCI-state' OR 'ST-PCI'
-  OR 'state transitions complexity index'
-  OR 'integrated information' OR IIT OR phi
-  OR 'causal density' OR 'causal emergence' OR 'phi-ID'
-  OR 'information decomposition' OR 'state differentiation'
-  OR entropy OR 'sample entropy' OR 'approximate entropy'
-  OR 'permutation entropy' OR 'multiscale entropy' OR 'spectral entropy'
-  OR 'transfer entropy' OR 'mutual information' OR 'Granger causality'
-  OR 'weighted symbolic mutual information' OR wSMI
-  OR 'neural complexity' OR 'matching complexity'
-  OR 'neural avalanche*' OR criticality OR 'branching parameter'
-  OR 'long-range temporal correlation*' OR 'detrended fluctuation analysis' OR DFA
-  OR 'multifractal' OR 'MF-DFA'
-  OR 'fractal dimension' OR 'correlation dimension' OR 'Hurst exponent'
-  OR Lyapunov OR chaos
-  OR 'intrinsic dimensionality' OR 'participation ratio' OR manifold
-  OR 'small-world' OR modularity OR 'rich-club' OR 'hierarchical complexity'
-  OR 'signal complexity' OR 'signal diversity' OR 'EEG complexity'
-  OR 'complexity measure*' OR 'complexity marker*'
-  OR 'phase-locking value' OR PLV OR 'phase locking value'
-  OR 'weighted phase-lag index' OR wPLI
-  OR metastability OR 'chimera state*' OR 'chimera-state*'
-  OR 'phase coherence' OR 'phase synchron*'
-  OR 'autocorrelation window' OR ACW
-  OR 'power-law exponent' OR PLE
-  OR 'temporal receptive window*' OR TRW
-  OR 'scale-free' OR 'scale free'
-  OR 'global signal topography' OR 'GS-topography'):ti,ab,kw)
-AND
-((EEG OR electroencephalograph* OR MEG OR magnetoencephalograph*
-  OR iEEG OR ECoG OR intracranial OR 'local field potential*' OR LFP
-  OR fMRI OR BOLD OR 'functional magnetic resonance'
-  OR 'single-unit' OR 'multi-unit' OR 'two-photon' OR 'calcium imaging'
-  OR 'wide-field' OR neuroimag* OR 'brain activity' OR 'neural recording*'
-  OR TMS OR 'TMS-EEG' OR 'TMS-evoked' OR 'TMS evoked'
-  OR 'transcranial magnetic stimulation'):ti,ab,kw)
-AND [english]/lim
-AND [1990-2026]/py
-```
-
-**Notes.** Embase uses single quotes for phrases; double quotes mean exact-text match (no Emtree expansion) and should be avoided here. The `[1990-2026]/py` filter must be updated to the actual search year on each rerun. Embase will overlap heavily with PubMed/MEDLINE — that overlap is captured in the PRISMA flow's deduplication step (§B7), not at search time.
-
----
 
 ## Per-database expectations & re-run protocol
 
-The PubMed corpus (5,267 at v0.4.1 pilot) will overlap substantially with Scopus, WoS, and Embase. After deduplication (Bramer method in Zotero + Rayyan + manual spot-check per §B7), the unique-record total typically lands at ~1.3–1.7× the largest single database. PsycINFO and IEEE Xplore are coverage checks rather than primary contributors.
+The PubMed corpus (5,267 at v0.4.1 pilot) will overlap substantially with Scopus and Web of Science. After deduplication (Bramer method in Zotero + Rayyan + manual spot-check per §B7), the unique-record total typically lands at ~1.3–1.7× the largest single database. PsycINFO and IEEE Xplore are coverage checks rather than primary contributors.
 
-**On the day of the locked search**, run all six queries within a 24-hour window so the date stamps are commensurable. Archive the raw query strings, the date/time, and the per-database hit counts in a single text file (`search_log_YYYY-MM-DD.txt`) and store it in the OSF project alongside this document. That file is part of the audit trail PRISMA-ScR expects.
+**On the day of the locked search**, run all five queries within a 24-hour window so the date stamps are commensurable. Archive the raw query strings, the date/time, and the per-database hit counts in a single text file (`search_log_YYYY-MM-DD.txt`) and store it in the OSF project alongside this document. That file is part of the audit trail PRISMA-ScR expects.
 
-**If any single database returns dramatically more or fewer records than expected** (e.g., Scopus > 30 000, IEEE > 5 000, or any database returning 0), do not export — instead, diagnose first by running each block individually in that database to identify which block is misbehaving in that platform's syntax. Common causes: hyphen handling in WoS, wildcard position rules in EBSCO and IEEE, and quote-vs-no-quote phrase semantics in Embase.
+**If any single database returns dramatically more or fewer records than expected** (e.g., Scopus > 30 000, IEEE > 5 000, or any database returning 0), do not export — instead, diagnose first by running each block individually in that database to identify which block is misbehaving in that platform's syntax. Common causes: hyphen handling in WoS and wildcard position rules in EBSCO and IEEE.
 
 ---
 

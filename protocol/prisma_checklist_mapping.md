@@ -1,6 +1,6 @@
 # PRISMA-ScR + PRISMA-S checklist mapping
 
-**Companion to:** `prisma_protocol.md` v0.5 (2026-05-29 draft for OSF registration)
+**Companion to:** `prisma_protocol.md` (Version 0.5.1, 2026-06-04)
 **Purpose.** One-page mapping showing where each PRISMA-ScR (Tricco et al. 2018, *Ann Intern Med*) and PRISMA-S (Rethlefsen et al. 2021, *Syst Rev*) item is addressed in the protocol. To be uploaded to OSF alongside the protocol at registration so reviewers can verify compliance without hunting.
 
 ---
@@ -15,8 +15,8 @@
 | 4 | Introduction | Objectives | §A2 review aims (5 aims) + §B2 review questions (PQ1–PQ7) |
 | 5 | Methods | Protocol and registration | §A4 (PRISMA-ScR + OSF); §B1 administrative; this protocol = the registerable document |
 | 6 | Methods | Eligibility criteria | §B3 PECO + §B4 inclusion / exclusion / grey-zone criteria |
-| 7 | Methods | Information sources | §B5 (six databases with per-database rationale; preprints; hand-search; Citationchaser; expert elicitation) |
-| 8 | Methods | Search | §B6 (locked Block 1 / Block 2 / Block 3 PubMed string + companion `database_queries.md` with five translations) |
+| 7 | Methods | Information sources | §B5 (five databases with per-database rationale; preprints; hand-search; Citationchaser; expert elicitation; Decision 9 documents Embase access constraint) |
+| 8 | Methods | Search | §B6 (locked Block 1 / Block 2 / Block 3 PubMed string + companion `database_queries.md` with four translations) |
 | 9 | Methods | Selection of sources of evidence | §B7 (single human reviewer + Elicit AI second-screening + ASReview active-learning prioritisation; within-person test-retest; pre-registered Elicit calibration documented in `calibration_results.md`; Yaron 2022 *Nat Hum Behav* precedent for the single-human-reviewer baseline) |
 | 10 | Methods | Data charting process | §B7 data extraction paragraph + §B8 extraction-fields list; piloted structured extraction form on 10 studies, then revised before bulk extraction; 10 % intra-rater re-extraction after ≥ 1-month delay |
 | 11 | Methods | Data items | §B8 extraction fields (12 categories) |
@@ -40,8 +40,8 @@ Items 14–21 are Results / Discussion items and are not part of the protocol *p
 
 | # | Block | Item | Where addressed in protocol |
 |---:|---|---|---|
-| 1 | Information sources & methods | Database name | §B5 + `database_queries.md` (PubMed/MEDLINE, Scopus, Web of Science Core Collection, PsycINFO, IEEE Xplore, Embase) |
-| 2 | Information sources & methods | Multi-database searching | §B5 (six databases; rationale per database); §B6.3 audit-trail policy (24-hour multi-database window) |
+| 1 | Information sources & methods | Database name | §B5 + `database_queries.md` (PubMed/MEDLINE, Scopus, Web of Science Core Collection, PsycINFO, IEEE Xplore); Decision 9 documents Embase access constraint |
+| 2 | Information sources & methods | Multi-database searching | §B5 (five databases; rationale per database); §B6.3 audit-trail policy (24-hour multi-database window) |
 | 3 | Information sources & methods | Study registries | Not applicable for this scoping review (we do not search trial registries; no clinical trials are in scope). Documented as N/A. |
 | 4 | Information sources & methods | Online resources and browsing | §B5 hand-search list (12 journals); preprint sources (bioRxiv, medRxiv, arXiv, PsyArXiv) |
 | 5 | Information sources & methods | Citation searching | §B5 (Citationchaser, named per PRISMA-S requirement) + §B9 seed set |
@@ -65,7 +65,7 @@ Items 14–21 are Results / Discussion items and are not part of the protocol *p
 
 **PRISMA-S:** 14 of 16 items addressed in the protocol. Item 3 (study registries) is N/A and documented; item 11 (search filters) is N/A.
 
-**Items pending registration-time entries:** OSF registration DOI (§B1, §B6.3) — to be added when the v0.5 protocol is registered on OSF Registries after supervisor sign-off. Author ORCIDs (§B1.2), affiliations (§B1.2), and the milestone schedule (§B1) are all populated in v0.5; the Zenodo concept DOI (10.5281/zenodo.20140263) and v0.4.1 specific-release DOI (10.5281/zenodo.20140262) for the code/protocol archive are recorded in §B6.3 and will be updated to the v0.5 specific-release DOI when v0.5 is tagged on GitHub and auto-archived to Zenodo.
+**Items pending registration-time entries:** OSF registration DOI/link and final multi-database record totals. The Zenodo concept DOI (10.5281/zenodo.20140263) and v0.4.1 specific-release DOI (10.5281/zenodo.20140262) are recorded in §B6.3 and will be updated only if a new GitHub/Zenodo release is created for v0.5.1.
 
 ---
 

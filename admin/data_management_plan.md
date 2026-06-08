@@ -9,7 +9,7 @@ This is a half-page operational DMP for the OSF registration form. The review us
 
 ## 1. Data types
 
-- **Search exports.** RIS / CSV files exported from PubMed, Scopus, Web of Science, PsycINFO, IEEE Xplore, Embase (one per database, archived with timestamp + query string).
+- **Search exports.** RIS / CSV files exported from PubMed, Scopus, Web of Science, PsycINFO, IEEE Xplore (one per database, archived with timestamp + query string). Note: Embase was originally planned but access could not be obtained within the project timeline; see Decision 9 in the protocol.
 - **Deduplicated corpus.** Single RIS / CSV combining the per-database exports after Bramer + Rayyan dedup + manual spot-check.
 - **Screening decisions.** Per-record include / maybe / exclude calls with rationale, exported from Elicit and ASReview (Phase 3) and from the human-reconciliation log.
 - **Extraction tables.** Per-included-paper structured extraction (§B8 form) capturing eight-axis taxonomy tags, methodological details, claim → evidence mapping, and validation evidence.

@@ -10,16 +10,16 @@ The review systematically maps quantitative complexity measures applied to neura
 
 | Item | Status |
 |---|---|
-| Protocol version | **v0.5** (2026-05-29, draft — holding for supervisor sign-off before OSF registration) |
-| Search strategy | Locked in PubMed; five other database translations drafted |
+| Protocol version | **v0.5.1** (2026-06-04) |
+| Search strategy | Locked five-database strategy: PubMed, Scopus, Web of Science, PsycINFO, IEEE Xplore |
 | Search execution | Manual via each database's authenticated UI (institutional MPI/CBS login); code restricted to downstream QC, parsing, and analysis |
 | PubMed hit count | 5,267 records (pilot, 2026-05-12) |
 | Empirical seeds captured | 7 / 8 (Sitt 2014 = documented DB miss, recovered via citation tracking) |
 | Screening model | Single human reviewer + Elicit AI second screening (calibrated 2026-05-28; κ = 0.843, recall 98.1 %, seeds 8/8) |
-| Database access | Confirmed via MPI/CBS login: Scopus, Web of Science, PsycINFO (EBSCO), IEEE Xplore. Embase: confirmation pending |
-| OSF workspace | Private workspace created 2026-05-29 (ORCID-linked, EU-Frankfurt storage); deliberately *unregistered*, *non-public*, and *unpopulated* pending v0.5 sign-off + change-audit clearance |
+| Database access | Confirmed via MPI/CBS login: Scopus, Web of Science, PsycINFO (EBSCO), IEEE Xplore. Embase access constraint documented in Decision 9. |
+| OSF workspace | Private workspace created 2026-05-29 (ORCID-linked, EU-Frankfurt storage); populated with stable pre-registration files |
 | Code archive | Zenodo, see DOI badge above |
-| OSF registration | Pending v0.5 supervisor sign-off |
+| OSF registration | Pending registration of v0.5.1 |
 
 ## Authors
 
@@ -29,7 +29,7 @@ External collaborators (to be added on contribution): Adam Barrett, Anil Seth.
 ## Files
 
 - **`prisma_protocol.md`** and **`prisma_protocol_v0.4.1.md` / `.docx`** — current protocol, including locked search strategy, PECO criteria, eight-axis taxonomy, screening model, and amendments log. (`prisma_protocol.md` tracks the latest in-progress version; the `_v0.4.1` files are the stable snapshot archived on Zenodo.)
-- **`database_queries.md`** — locked PubMed query plus equivalent translations for Scopus, Web of Science, PsycINFO, IEEE Xplore, and Embase.
+- **`database_queries.md`** — locked PubMed query plus equivalent translations for Scopus, Web of Science, PsycINFO, and IEEE Xplore (Embase removed per Decision 9).
 - **`prisma_checklist_mapping.md` / `.docx`** — PRISMA-ScR (22-item) and PRISMA-S (16-item) compliance mapping against the protocol.
 - **`pilot_search.py`** — pilot-search and seed-validation script (Python, stdlib only; queries PubMed E-utilities).
 - **`pilot_search_report.md`** — most recent pilot output (hit counts + seed-paper per-block diagnosis).

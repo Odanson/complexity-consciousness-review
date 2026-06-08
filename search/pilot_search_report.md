@@ -42,5 +42,5 @@ Run: 2026-05-12T06:32:40+00:00 → 2026-05-12T06:33:25+00:00 UTC
   appears only in the body (need to broaden field tags) or a
   block synonym is missing.
 - This is a PubMed-only pilot. The final search will be
-  replicated in Scopus, Web of Science, PsycINFO, IEEE Xplore,
-  and Embase per §B5 of the protocol.
+  replicated in Scopus, Web of Science, PsycINFO, and IEEE Xplore per §B5 of the protocol.
+  (Embase was originally planned but could not be accessed within the project timeline; see Decision 9 in the protocol.)
