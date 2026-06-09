@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite this release."
+
+title: "Complexity Measures of Consciousness: PRISMA-ScR Protocol and Review Materials"
+
+version: "0.5.1"
+date-released: 2026-06-09
+
+authors:
+  - family-names: Odan
+    given-names: Samson
+    orcid: "https://orcid.org/0009-0002-2909-0831"
+
+repository-code: "https://github.com/Odanson/complexity-consciousness-review"
+
+license: "CC-BY-4.0"
