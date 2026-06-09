@@ -242,7 +242,7 @@ On the day of the locked multi-database search (after OSF registration), all fiv
 
 **Code and protocol archive.** The pilot-search script (`pilot_search.py`), the locked database queries (`database_queries.md`), the PRISMA-ScR / PRISMA-S checklist mapping (`prisma_checklist_mapping.md`), and this protocol are archived on Zenodo with a permanent DOI:
 
-- **v0.4.1 (this version):** [10.5281/zenodo.20140262](https://doi.org/10.5281/zenodo.20140262)
+- **v0.5.1 (this version):** [10.5281/zenodo.20609130](https://doi.org/10.5281/zenodo.20609130)
 - **Concept DOI** (always resolves to the latest released version): [10.5281/zenodo.20140263](https://doi.org/10.5281/zenodo.20140263)
 
 The GitHub source repository linked by Zenodo will be made public on the day of OSF registration; the link will be added here at that time.

@@ -65,7 +65,7 @@ Items 14–21 are Results / Discussion items and are not part of the protocol *p
 
 **PRISMA-S:** 14 of 16 items addressed in the protocol. Item 3 (study registries) is N/A and documented; item 11 (search filters) is N/A.
 
-**Items pending registration-time entries:** OSF registration DOI/link and final multi-database record totals. The Zenodo concept DOI (10.5281/zenodo.20140263) and v0.4.1 specific-release DOI (10.5281/zenodo.20140262) are recorded in §B6.3 and will be updated only if a new GitHub/Zenodo release is created for v0.5.1.
+**Items pending registration-time entries:** OSF registration DOI/link and final multi-database record totals. The Zenodo concept DOI (10.5281/zenodo.20140263) and v0.5.1 specific-release DOI (10.5281/zenodo.20609130) are recorded in §B6.3 and will be updated only if a new GitHub/Zenodo release is created for v0.5.1.
 
 ---
 

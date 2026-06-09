@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/1236657777.svg)](https://doi.org/10.5281/zenodo.20140262)
+[![DOI](https://zenodo.org/badge/1236657777.svg)](https://doi.org/10.5281/zenodo.20609130)
 
 # Complexity Measures of Consciousness — PRISMA-ScR Review
 
@@ -73,12 +73,12 @@ file will be added and versioned in the repository.
 ## Registration
 
 - **OSF Registries:** pending — link will appear here on registration.
-- **Zenodo (this repository, v0.4.1):** [10.5281/zenodo.20140262](https://doi.org/10.5281/zenodo.20140262)
+- **Zenodo (this repository, v0.5.1):** [10.5281/zenodo.20609130](https://doi.org/10.5281/zenodo.20609130)
 - **Zenodo concept DOI** (always resolves to the latest released version): [10.5281/zenodo.20140263](https://doi.org/10.5281/zenodo.20140263)
 
 ## Citing this work
 
-> Odan, S., Melloni, L., Bicanski, A., & Jost, J. (2026). *Complexity measures of consciousness: a PRISMA-ScR methodological review (v0.4.1)* [Protocol]. Zenodo. https://doi.org/10.5281/zenodo.20140262
+> Odan, S., Melloni, L., Bicanski, A., & Jost, J. (2026). *Complexity measures of consciousness: a PRISMA-ScR methodological review (v0.5.1)* [Protocol]. Zenodo. https://doi.org/10.5281/zenodo.20609130
 
 ## Licence
 
