@@ -1,6 +1,6 @@
 # Complexity Measures of Consciousness — PRISMA Review Protocol
 
-**Version 0.5.1 — 2026-06-04 (registration-ready)**
+**Version 0.5.1 — 2026-06-04 (registered on OSF Registries: 10.17605/OSF.IO/FUX2J)**
 
 **Lead reviewer:** Samson Odan
 **Supervisors:** Jurgen Jost, Lucia Melloni, Andrej Bicanski
@@ -43,7 +43,7 @@ The primary deliverable is a peer-reviewed review manuscript. It will be accompa
 
 ### A4. Review type and registration
 - **Review type.** Methodological / measurement-focused. PRISMA 2020 reporting; PRISMA-P 2015 for the protocol. Because the goal is to map measures rather than synthesise effect sizes, **PRISMA-ScR** (scoping-review extension, Tricco et al. 2018) is likely the better fit — to be confirmed under §C1.
-- **Pre-registration.** OSF Registries (target). PROSPERO is a fallback but has historically rejected purely methodological scoping reviews.
+- **Pre-registration.** OSF Registries (registered): DOI [10.17605/OSF.IO/FUX2J](https://doi.org/10.17605/OSF.IO/FUX2J); registration record at [https://osf.io/fux2j](https://osf.io/fux2j). PROSPERO is a fallback but has historically rejected purely methodological scoping reviews.
 
 ---
 
@@ -54,11 +54,11 @@ The primary deliverable is a peer-reviewed review manuscript. It will be accompa
 | Field | Value |
 |---|---|
 | Working title | Complexity measures of consciousness: a methodological review of what they compute and what they can warrant |
-| Protocol version / date | v0.5.1 / 2026-06-04 (registration-ready; supervisor sign-off complete) |
-| Registry | OSF Registries (target) |
+| Protocol version / date | v0.5.1 / 2026-06-04 (registered on OSF Registries; supervisor sign-off complete) |
+| Registry | OSF Registries — registration DOI: [10.17605/OSF.IO/FUX2J](https://doi.org/10.17605/OSF.IO/FUX2J); record: [https://osf.io/fux2j](https://osf.io/fux2j) |
 | Lead reviewer | Samson Odan |
 | Provisional authorship (in order) | Samson Odan; Lucia Melloni; Andrej Bicanski; Jurgen Jost. Adam Barrett and Anil Seth to be added on contribution. |
-| Screening model | Single human reviewer with AI-assisted second screening (Elicit, calibrated 2026-05-28) + ASReview active-learning prioritisation; within-person test-retest for self-consistency (see §B7). Precedent: Yaron, Melloni, Pitts & Mudrik 2022, *Nat Hum Behav* |
+| Screening model | Single human reviewer with Elicit AI second screening (calibrated 2026-05-28) + ASReview active-learning prioritisation; within-person test-retest for self-consistency (see §B7). Precedent: Yaron, Melloni, Pitts & Mudrik 2022, *Nat Hum Behav* |
 | Arbiter | Any two of Jurgen Jost, Lucia Melloni, Andrej Bicanski |
 | Funding | Max Planck School of Cognition |
 | Progress-review cadence | Monthly. |
@@ -245,7 +245,13 @@ On the day of the locked multi-database search (after OSF registration), all fiv
 - **v0.5.1 (this version):** [10.5281/zenodo.20609130](https://doi.org/10.5281/zenodo.20609130)
 - **Concept DOI** (always resolves to the latest released version): [10.5281/zenodo.20140263](https://doi.org/10.5281/zenodo.20140263)
 
-The GitHub source repository linked by Zenodo will be made public on the day of OSF registration; the link will be added here at that time.
+The GitHub source repository linked by Zenodo is publicly available at:
+https://github.com/Odanson/complexity-consciousness-review
+
+**OSF Registries pre-registration.** This protocol is pre-registered on OSF Registries:
+
+- **OSF Registration DOI:** [10.17605/OSF.IO/FUX2J](https://doi.org/10.17605/OSF.IO/FUX2J)
+- **Registration record:** [https://osf.io/fux2j](https://osf.io/fux2j)
 
 ### B7. Study records — management, selection, extraction
 
@@ -255,7 +261,7 @@ The GitHub source repository linked by Zenodo will be made public on the day of 
 
 **Screening platform.** Rayyan (free, conflict-tracked) for calibration and screening management where appropriate; **ASReview** (van de Schoot et al. 2021, *Nat Mach Intell*) for active-learning prioritised bulk screening.
 
-**Screening model — single human reviewer with AI-assisted second screening (Elicit) + ASReview active learning + within-person test-retest (revised v0.4.4).**
+**Screening model — single human reviewer with Elicit AI second screening + ASReview active learning + within-person test-retest (revised v0.4.4).**
 
 The lab has no available personnel capacity for a second *human* reviewer in any role. Supervisors will give feedback on completed work at progress milestones but will not perform screening, calibration, or quality-control re-screening. The protocol must therefore be feasible for a single human reviewer (Samson) operating alone. Following the JBI scoping-review methodology (Peters et al. 2020; Pollock et al. 2023) — which explicitly does not mandate dual independent screening — and following the published precedent of **Yaron, Melloni, Pitts & Mudrik 2022, *Nature Human Behaviour***, which published a scoping review in this exact field without dual independent screening, screening proceeds as follows. **Elicit (PRISMA-2020-compliant systematic-review workflow) serves as a formal AI second-screener; this is documented as an explicit deviation from PRISMA's default dual *independent human* screening, with the calibration outcome reported alongside (v0.4.4).**
 
@@ -472,7 +478,7 @@ Status of all nine protocol decisions: Decisions 1–7 raised in v0.2 / v0.3 (af
 3. **Screening model — Resolved (revised v0.4.4 to add formal Elicit AI second-screening).** **Single human reviewer + Elicit AI second screening + ASReview active-learning prioritisation + within-person test-retest** (see §B7). The lab has no available personnel for a second *human* reviewer in any role; supervisors give feedback on completed work at month-end milestones but do not screen, calibrate, or perform quality-control re-screening. The v0.4.3 "optional LLM-assisted verification (transparency, not arbitration)" step has been upgraded to a formal AI-assisted second-screening layer after a pre-registered calibration on 200 records cleared all three commit thresholds (κ = 0.843, recall of human-includes = 98.1 %, seeds 8/8; full numbers in §B7 calibration paragraph and `calibration_results.md`). Yaron, Melloni, Pitts & Mudrik 2022 *Nat Hum Behav* remains cited as published precedent for single-human-reviewer scoping reviews in this field; the Elicit layer is documented as an additional safeguard, not as a substitute for a second independent human reviewer.
 4. **Authorship policy and order.** To settle before Adam Barrett and Anil Seth are formally invited; provisional order Samson (lead) → Jurgen → Lucia → Andrej, with Adam Barrett and Anil Seth added on contribution.
 5. **Taxonomy sign-off — Resolved.** Lucia endorsed the four-axis spine and proposed two further axes (spatial scale, theory anchoring); both adopted in §B12 plus two further axes (causal vs descriptive; validation evidence type). Axis 1 expanded with wSMI and a phase / dynamical-systems family.
-6. **Registration venue — Resolved.** **OSF Registries.**
+6. **Registration venue — Resolved.** **OSF Registries** — registered: DOI [10.17605/OSF.IO/FUX2J](https://doi.org/10.17605/OSF.IO/FUX2J); registration record at [https://osf.io/fux2j](https://osf.io/fux2j).
 7. **Grey-zone calls — Status: agreed.** Anaesthesia-monitoring papers, pharmaco-EEG, simulation-only papers retained as flag-and-decide grey-zone items in §B4.
 8. **Block-2 keyword breadth (Jürgen, 2026-05-29) — Considered; not implemented as a v0.5 protocol change; to be evaluated empirically post-search.** Jürgen raised that Block 2 may be overly broad / heterogeneous and suggested estimating retrieval volume using a narrower term set first (e.g., omitting terms such as “scale-free”). The concern is methodologically legitimate and will be evaluated empirically post-search. v0.5 does not implement pre-registration narrowing of Block 2 because pilot retrieval remains within the planned target band (§B6.1; 5,267 records), the present breadth reflects supervisor-guided expansion aligned with the review taxonomy, and recall is prioritised for methodological mapping. For a scoping review, over-search is recoverable through screening whereas under-search risks omission of relevant measure families. No pre-registration change is therefore implemented. Instead, during the bulk screening phase, Block 2 sub-families will be tracked against the measure families they populate. After the included set is locked, a term-level contribution analysis may be conducted to assess which Block 2 terms contributed meaningfully to included studies and which yielded negligible signal. Terms with minimal contribution may become candidates for refinement in a future protocol version or follow-on review. This converts the concern from a pre-registration trade-off into an empirical question answered using the included corpus.
 

@@ -19,7 +19,7 @@ The review systematically maps quantitative complexity measures applied to neura
 | Database access | Confirmed via MPI/CBS login: Scopus, Web of Science, PsycINFO (EBSCO), IEEE Xplore. Embase access constraint documented in Decision 9. |
 | OSF workspace | Private workspace created 2026-05-29 (ORCID-linked, EU-Frankfurt storage); populated with stable pre-registration files |
 | Code archive | Zenodo, see DOI badge above |
-| OSF registration | Pending registration of v0.5.1 |
+| OSF registration | **Registered (v0.5.1):** [10.17605/OSF.IO/FUX2J](https://doi.org/10.17605/OSF.IO/FUX2J) · [view record](https://osf.io/fux2j) |
 
 ## Authors
 
@@ -72,7 +72,7 @@ file will be added and versioned in the repository.
 
 ## Registration
 
-- **OSF Registries:** pending — link will appear here on registration.
+- **OSF Registries (v0.5.1):** [10.17605/OSF.IO/FUX2J](https://doi.org/10.17605/OSF.IO/FUX2J) — registration record at [https://osf.io/fux2j](https://osf.io/fux2j)
 - **Zenodo (this repository, v0.5.1):** [10.5281/zenodo.20609130](https://doi.org/10.5281/zenodo.20609130)
 - **Zenodo concept DOI** (always resolves to the latest released version): [10.5281/zenodo.20140263](https://doi.org/10.5281/zenodo.20140263)
 

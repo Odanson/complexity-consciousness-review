@@ -65,7 +65,11 @@ Items 14–21 are Results / Discussion items and are not part of the protocol *p
 
 **PRISMA-S:** 14 of 16 items addressed in the protocol. Item 3 (study registries) is N/A and documented; item 11 (search filters) is N/A.
 
-**Items pending registration-time entries:** OSF registration DOI/link and final multi-database record totals. The Zenodo concept DOI (10.5281/zenodo.20140263) and v0.5.1 specific-release DOI (10.5281/zenodo.20609130) are recorded in §B6.3 and will be updated only if a new GitHub/Zenodo release is created for v0.5.1.
+**OSF Registries registration completed:** DOI [10.17605/OSF.IO/FUX2J](https://doi.org/10.17605/OSF.IO/FUX2J); registration record at [https://osf.io/fux2j](https://osf.io/fux2j).
+
+**Items still pending:** final multi-database record totals (populated after the locked multi-database run).
+
+The Zenodo concept DOI (10.5281/zenodo.20140263) and v0.5.1 specific-release DOI (10.5281/zenodo.20609130) are recorded in §B6.3 and will be updated only if a new GitHub/Zenodo release is created for v0.5.1.
 
 ---
 
