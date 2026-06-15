@@ -13,13 +13,14 @@ The review systematically maps quantitative complexity measures applied to neura
 | Protocol version | **v0.5.1** (2026-06-04) |
 | Search strategy | Locked five-database strategy: PubMed, Scopus, Web of Science, PsycINFO, IEEE Xplore |
 | Search execution | Manual via each database's authenticated UI (institutional MPI/CBS login); code restricted to downstream QC, parsing, and analysis |
-| PubMed hit count | 5,267 records (pilot, 2026-05-12) |
-| Empirical seeds captured | 7 / 8 (Sitt 2014 = documented DB miss, recovered via citation tracking) |
+| Multi-database search executed | **2026-06-10 — 14,866 records (raw, pre-dedup):** PubMed 4,912 · Scopus 4,212 · Web of Science 3,750 · PsycINFO 783 · IEEE Xplore 1,209. See [`search/search execution/search_execution_report.md`](search/search%20execution/search_execution_report.md). |
+| PubMed pilot hit count | 5,267 records (v0.4.1 pilot, 2026-05-12; historical comparator) |
+| Empirical seeds captured (v0.4.1 pilot) | 7 / 8 (Sitt 2014 = documented DB miss, recovered via citation tracking; full seed validation against the executed multi-database corpus to follow Phase 2 dedup) |
 | Screening model | Single human reviewer + Elicit AI second screening (calibrated 2026-05-28; κ = 0.843, recall 98.1 %, seeds 8/8) |
 | Database access | Confirmed via MPI/CBS login: Scopus, Web of Science, PsycINFO (EBSCO), IEEE Xplore. Embase access constraint documented in Decision 9. |
 | OSF workspace | Private workspace created 2026-05-29 (ORCID-linked, EU-Frankfurt storage); populated with stable pre-registration files |
 | Code archive | Zenodo, see DOI badge above |
-| OSF registration | **Registered (v0.5.1):** [10.17605/OSF.IO/FUX2J](https://doi.org/10.17605/OSF.IO/FUX2J) · [view record](https://osf.io/fux2j) |
+| OSF registration | **Registered (v0.5.1):** [10.17605/OSF.IO/FU82J](https://doi.org/10.17605/OSF.IO/FU82J) · [view record](https://osf.io/fu82j/) |
 
 ## Authors
 
@@ -28,11 +29,13 @@ External collaborators (to be added on contribution): Adam Barrett, Anil Seth.
 
 ## Files
 
-- **`prisma_protocol.md`** and **`prisma_protocol_v0.4.1.md` / `.docx`** — current protocol, including locked search strategy, PECO criteria, eight-axis taxonomy, screening model, and amendments log. (`prisma_protocol.md` tracks the latest in-progress version; the `_v0.4.1` files are the stable snapshot archived on Zenodo.)
+- **`prisma_protocol_v0.5.1.md`** — **registered protocol** archived on OSF Registries ([10.17605/OSF.IO/FU82J](https://doi.org/10.17605/OSF.IO/FU82J)) and Zenodo ([10.5281/zenodo.20609130](https://doi.org/10.5281/zenodo.20609130); concept DOI [10.5281/zenodo.20140263](https://doi.org/10.5281/zenodo.20140263)). Contains the locked search strategy, PECO criteria, eight-axis taxonomy, screening model (single human + Elicit AI second-screening + ASReview prioritisation), and amendments log used for the executed review.
+- **Legacy protocol snapshots** (`prisma_protocol_v0.4.1.md` through `prisma_protocol_v0.5.md`) — archived historical versions retained for provenance and version history; each transition is recorded in the v0.5.1 amendments log.
 - **`database_queries.md`** — locked PubMed query plus equivalent translations for Scopus, Web of Science, PsycINFO, and IEEE Xplore (Embase removed per Decision 9).
 - **`prisma_checklist_mapping.md` / `.docx`** — PRISMA-ScR (22-item) and PRISMA-S (16-item) compliance mapping against the protocol.
 - **`pilot_search.py`** — pilot-search and seed-validation script (Python, stdlib only; queries PubMed E-utilities).
 - **`pilot_search_report.md`** — most recent pilot output (hit counts + seed-paper per-block diagnosis).
+- **`search/search execution/`** — executed multi-database search artefacts (2026-06-10): per-database raw exports + screenshots + `search_log.md`, plus a `search_execution_report.md` summary at the folder root.
 - **`github_zenodo_setup.md`** — instructions used to set up this repository and the Zenodo archive.
 
 ## Reproducing the pilot search
@@ -72,7 +75,7 @@ file will be added and versioned in the repository.
 
 ## Registration
 
-- **OSF Registries (v0.5.1):** [10.17605/OSF.IO/FUX2J](https://doi.org/10.17605/OSF.IO/FUX2J) — registration record at [https://osf.io/fux2j](https://osf.io/fux2j)
+- **OSF Registries (v0.5.1):** [10.17605/OSF.IO/FU82J](https://doi.org/10.17605/OSF.IO/FU82J) — registration record at [https://osf.io/fu82j/](https://osf.io/fu82j/)
 - **Zenodo (this repository, v0.5.1):** [10.5281/zenodo.20609130](https://doi.org/10.5281/zenodo.20609130)
 - **Zenodo concept DOI** (always resolves to the latest released version): [10.5281/zenodo.20140263](https://doi.org/10.5281/zenodo.20140263)
 
