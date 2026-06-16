@@ -16,7 +16,7 @@ The correction does **not** affect the protocol, the registration record on OSF,
 | `README.md` | 4 | 4 |
 | `protocol/prisma_protocol_v0.5.1.md` | 9 | 8 |
 | `protocol/prisma_checklist_mapping.md` | 2 | 2 |
-| `search/search execution/search_execution_report.md` | 3 | 2 |
+| `search/search_execution/search_execution_report.md` | 3 | 2 |
 | `search/search execution copy/search_execution_report.md` | 3 | 2 |
 
 All occurrences were replaced repository-wide; a full-tree grep for the incorrect identifier returns zero results post-correction.

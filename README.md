@@ -13,7 +13,8 @@ The review systematically maps quantitative complexity measures applied to neura
 | Protocol version | **v0.5.1** (2026-06-04) |
 | Search strategy | Locked five-database strategy: PubMed, Scopus, Web of Science, PsycINFO, IEEE Xplore |
 | Search execution | Manual via each database's authenticated UI (institutional MPI/CBS login); code restricted to downstream QC, parsing, and analysis |
-| Multi-database search executed | **2026-06-10 — 14,866 records (raw, pre-dedup):** PubMed 4,912 · Scopus 4,212 · Web of Science 3,750 · PsycINFO 783 · IEEE Xplore 1,209. See [`search/search execution/search_execution_report.md`](search/search%20execution/search_execution_report.md). |
+| Multi-database search executed | **2026-06-10 — 14,866 records (raw, pre-dedup):** PubMed 4,912 · Scopus 4,212 · Web of Science 3,750 · PsycINFO 783 · IEEE Xplore 1,209. See [`search/search_execution/search_execution_report.md`](search/search_execution/search_execution_report.md). |
+| Phase 1 — corpus construction (deduplication) | **2026-06-16 — Complete.** Imported all five raw exports into Rayyan (IEEE CSV → RIS conversion via `convert_ieee_csv_to_ris.py` first); Rayyan duplicate-detection + manual adjudication: 9,613 duplicate groups detected, 3,293 resolved, 35 marked "Not duplicate", **6,285 duplicate records deleted → 8,581-record deduplicated corpus** (canonical RIS: `search/corpus_construction/rayyan_exports/rayyan_dedup_export_2026-06-16/articles.ris`). See [`search/corpus_construction/log.md`](search/corpus_construction/log.md). |
 | PubMed pilot hit count | 5,267 records (v0.4.1 pilot, 2026-05-12; historical comparator) |
 | Empirical seeds captured (v0.4.1 pilot) | 7 / 8 (Sitt 2014 = documented DB miss, recovered via citation tracking; full seed validation against the executed multi-database corpus to follow Phase 2 dedup) |
 | Screening model | Single human reviewer + Elicit AI second screening (calibrated 2026-05-28; κ = 0.843, recall 98.1 %, seeds 8/8) |
@@ -35,7 +36,8 @@ External collaborators (to be added on contribution): Adam Barrett, Anil Seth.
 - **`prisma_checklist_mapping.md` / `.docx`** — PRISMA-ScR (22-item) and PRISMA-S (16-item) compliance mapping against the protocol.
 - **`pilot_search.py`** — pilot-search and seed-validation script (Python, stdlib only; queries PubMed E-utilities).
 - **`pilot_search_report.md`** — most recent pilot output (hit counts + seed-paper per-block diagnosis).
-- **`search/search execution/`** — executed multi-database search artefacts (2026-06-10): per-database raw exports + screenshots + `search_log.md`, plus a `search_execution_report.md` summary at the folder root.
+- **`search/search_execution/`** — executed multi-database search artefacts (2026-06-10): per-database raw exports + screenshots + `search_log.md`, plus a `search_execution_report.md` summary at the folder root.
+- **`search/corpus_construction/`** — Phase 1 corpus-construction workflow (2026-06-15 → 06-16): the IEEE CSV → RIS conversion script (`convert_ieee_csv_to_ris.py`), the staged raw imports per database (`raw_imports/`), the Rayyan deduplication exports including the 8,581-record canonical deduplicated corpus (`rayyan_exports/rayyan_dedup_export_2026-06-16/articles.ris`), and the Phase-1 narrative in `log.md`.
 - **`github_zenodo_setup.md`** — instructions used to set up this repository and the Zenodo archive.
 
 ## Reproducing the pilot search

@@ -37,7 +37,7 @@ Embase was originally planned as a sixth database to provide Emtree-based pharma
 Each database folder contains the database-specific `search_log.md` plus the raw export files and execution screenshots used to validate the run.
 
 ```
-search/search execution/
+search/search_execution/
 ├── search_execution_report.md              ← this document
 ├── pubmed/
 │   ├── search_log.md
@@ -66,3 +66,22 @@ search/search execution/
 ## Audit trail compliance
 
 This report and the five per-database logs together satisfy **PRISMA-S** reporting items 1, 2, 9, 14, and 16 (database names; multi-database searching; full search strategies; total records identified; date of search). The registered conceptual query, its per-database syntactic translations, and the documented IEEE adaptation are recorded in `database_queries.md`; the protocol's amendments-log entry for v0.5.1 documents the execution-day commit, with the OSF registration DOI ([10.17605/OSF.IO/FU82J](https://doi.org/10.17605/OSF.IO/FU82J)) as the public pre-registration anchor.
+
+## Phase 1 outcome (deduplication completed 2026-06-15 → 06-16)
+
+The 14,866-record raw pool was imported into Rayyan (with the IEEE Xplore CSV exports first converted to RIS via `convert_ieee_csv_to_ris.py`, since the institutional IEEE Xplore interface does not generate RIS) and deduplicated using Rayyan's duplicate-detection plus manual adjudication. Final deduplication outcome:
+
+| Metric | Count |
+|---|---:|
+| Imported references | 14,866 |
+| Duplicate groups detected | 9,613 |
+| Duplicate groups resolved | 3,293 |
+| Marked "Not duplicate" | 35 |
+| Duplicate records deleted | 6,285 |
+| **Deduplicated corpus (canonical, fixed)** | **8,581** |
+
+The 8,581-record deduplicated corpus is the **fixed dataset for Phase-2 title / abstract screening**. Canonical RIS: `../corpus_construction/rayyan_exports/rayyan_dedup_export_2026-06-16/articles.ris`. Full Phase-1 workflow narrative + file index: `../corpus_construction/log.md`. PRISMA-S item 15 (Deduplication) is now satisfied.
+
+## Next step (Phase 2)
+
+Title / abstract screening on the 8,581-record corpus via the §B7 two-layer model: Elicit AI second-screening (four-criterion rendering, strict OFF, no automated override) running in parallel with ASReview active-learning prioritisation; pre-registered calibration outcome (κ = 0.843, recall 98.1 %, seeds 8/8) recorded in `../../calibration/calibration_results.md`.
