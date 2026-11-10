@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/1236657777.svg)](https://doi.org/10.5281/zenodo.20609130)
+[![DOI](https://zenodo.org/badge/1236657777.svg)](https://doi.org/10.5281/zenodo.24117099)
 
 # Complexity Measures of Consciousness — PRISMA-ScR Review
 
@@ -32,7 +32,7 @@ External collaborators will be added on substantial contribution.
 
 ## Files
 
-- **`protocol/prisma_protocol_v0.5.2.md`** — current protocol (post-registration update, 2026-11-10; see its amendments log). The registered v0.5.1 is kept unchanged in `protocol/archive/prisma_protocol_v0.5.1.md`. v0.5.1 details follow: **registered protocol** archived on OSF Registries ([10.17605/OSF.IO/FU82J](https://doi.org/10.17605/OSF.IO/FU82J)) and Zenodo ([10.5281/zenodo.20609130](https://doi.org/10.5281/zenodo.20609130); concept DOI [10.5281/zenodo.20140263](https://doi.org/10.5281/zenodo.20140263)). Contains the locked search strategy, PECO criteria, eight-axis taxonomy, screening model (single human reviewer in Rayyan + Elicit AI second-screening; ASReview prioritisation dropped in v0.5.2), and amendments log used for the executed review.
+- **`protocol/prisma_protocol_v0.5.2.md`** — current protocol (post-registration update, 2026-11-10; see its amendments log). The registered v0.5.1 is kept unchanged in `protocol/archive/prisma_protocol_v0.5.1.md`. v0.5.1 details follow: **registered protocol** archived on OSF Registries ([10.17605/OSF.IO/FU82J](https://doi.org/10.17605/OSF.IO/FU82J)) and Zenodo ([10.5281/zenodo.20609130](https://doi.org/10.5281/zenodo.20609130); concept DOI [10.5281/zenodo.20140262](https://doi.org/10.5281/zenodo.20140262)). Contains the locked search strategy, PECO criteria, eight-axis taxonomy, screening model (single human reviewer in Rayyan + Elicit AI second-screening; ASReview prioritisation dropped in v0.5.2), and amendments log used for the executed review.
 - **Legacy protocol snapshots** (`prisma_protocol_v0.4.1.md` through `prisma_protocol_v0.5.md`) — archived historical versions retained for provenance and version history; each transition is recorded in the v0.5.1 amendments log.
 - **`database_queries.md`** — locked PubMed query plus equivalent translations for Scopus, Web of Science, PsycINFO, and IEEE Xplore (Embase removed per Decision 9).
 - **`prisma_checklist_mapping.md` / `.docx`** — PRISMA-ScR (22-item) and PRISMA-S (16-item) compliance mapping against the protocol.
@@ -80,12 +80,13 @@ file will be added and versioned in the repository.
 ## Registration
 
 - **OSF Registries (v0.5.1):** [10.17605/OSF.IO/FU82J](https://doi.org/10.17605/OSF.IO/FU82J) — registration record at [https://osf.io/fu82j/](https://osf.io/fu82j/)
-- **Zenodo (this repository, v0.5.1):** [10.5281/zenodo.20609130](https://doi.org/10.5281/zenodo.20609130)
-- **Zenodo concept DOI** (always resolves to the latest released version): [10.5281/zenodo.20140263](https://doi.org/10.5281/zenodo.20140263)
+- **Zenodo (screening-complete v0.5.2):** [10.5281/zenodo.24117099](https://doi.org/10.5281/zenodo.24117099)
+- **Zenodo (registered protocol v0.5.1):** [10.5281/zenodo.20609130](https://doi.org/10.5281/zenodo.20609130)
+- **Zenodo concept DOI** (always resolves to the latest released version): [10.5281/zenodo.20140262](https://doi.org/10.5281/zenodo.20140262)
 
 ## Citing this work
 
-> Odan, S., Melloni, L., Bicanski, A., & Jost, J. (2026). *Complexity measures of consciousness: a PRISMA-ScR methodological review (v0.5.1)* [Protocol]. Zenodo. https://doi.org/10.5281/zenodo.20609130
+> Odan, S., Melloni, L., Bicanski, A., & Jost, J. (2026). *Complexity measures of consciousness: a PRISMA-ScR methodological review (v0.5.2)* [Protocol and review materials]. Zenodo. https://doi.org/10.5281/zenodo.24117099
 
 ## Licence
 
@@ -96,4 +97,4 @@ file will be added and versioned in the repository.
 
 Screening is complete; extraction and synthesis remain subsequent phases. This release includes reviewed screening decisions, citation identifiers, the final PRISMA flow, reliability checks, protocol amendments and extraction templates. Raw database exports, abstracts, Elicit supporting quotations and reviewer account details are excluded from this release tree. See [public distribution notes](PUBLICATION_REVIEW.md) and the [file manifest](PUBLICATION_FILE_MANIFEST.csv). References to withheld artifacts describe privately retained source evidence; scripts requiring raw exports must run against that private working copy.
 
-The Zenodo DOI listed above identifies v0.5.1. A new version DOI will be recorded only after v0.5.2 ingestion is verified.
+Zenodo has archived v0.5.2 at [10.5281/zenodo.24117099](https://doi.org/10.5281/zenodo.24117099). The archived ZIP was verified against all 115 reviewed release files. Zenodo metadata identifies [10.5281/zenodo.20140262](https://doi.org/10.5281/zenodo.20140262) as the concept DOI, correcting the previously recorded `20140263`. This DOI update follows the release; tag `v0.5.2` remains on the archived commit.

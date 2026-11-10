@@ -27,7 +27,7 @@ This is a half-page operational DMP for the OSF registration form. The review us
 ## 3. Versioning, audit trail, and reproducibility
 
 - Reviewed public scripts, documents and decision datasets are committed to GitHub with meaningful commit messages. Original raw exports and detailed service logs are preserved in the private working repository.
-- Each protocol version is tagged on GitHub; Zenodo auto-archives each release and mints a versioned DOI. Concept DOI: 10.5281/zenodo.20140263.
+- Each protocol version is tagged on GitHub; Zenodo auto-archives each release and mints a versioned DOI. Concept DOI: 10.5281/zenodo.20140262.
 - Screening, extraction, and reconciliation decisions are logged at the per-record level with rationale + source-quote where applicable.
 - The Elicit deployment configuration is recorded verbatim in `elicit_screening_prompts.md`; the locked PubMed search is in `database_queries.md` and reproducible from `pilot_search.py`.
 

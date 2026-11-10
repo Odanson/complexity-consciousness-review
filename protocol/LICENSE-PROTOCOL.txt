@@ -40,18 +40,18 @@ Under the following terms:
 Suggested citation:
 
    Odan, S., Melloni, L., Biçanski, A., & Jost, J. (2026). Complexity measures
-   of consciousness: a PRISMA-ScR methodological review (protocol v0.5.1)
-   [Protocol]. Zenodo. https://doi.org/10.5281/zenodo.20609130
+   of consciousness: a PRISMA-ScR methodological review (protocol v0.5.2)
+   [Protocol and review materials]. Zenodo. https://doi.org/10.5281/zenodo.24117099
 
-   (The DOI above is the Zenodo version-specific DOI for the registration-ready
-   v0.5.1 protocol snapshot archived on 2026-06-09. The Zenodo concept DOI,
+   (The DOI above is the Zenodo version-specific DOI for the screening-complete
+   v0.5.2 protocol snapshot archived on 2026-11-10. The Zenodo concept DOI,
    which always resolves to the latest released version of the repository, is:
 
-   https://doi.org/10.5281/zenodo.20140263
+   https://doi.org/10.5281/zenodo.20140262
 
 Historical archival snapshots remain available through the Zenodo “Versions”
-panel, including the original v0.4.1 archive:
-https://doi.org/10.5281/zenodo.20140262)
+panel, including the original v0.4.1-zenodo archive:
+https://doi.org/10.5281/zenodo.20140263)
 
 Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
 
