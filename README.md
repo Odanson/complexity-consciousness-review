@@ -10,14 +10,16 @@ The review systematically maps quantitative complexity measures applied to neura
 
 | Item | Status |
 |---|---|
-| Protocol version | **v0.5.1** (2026-06-04) |
+| Protocol version | **v0.5.2** (2026-11-10, post-registration update; the registered version is v0.5.1, 2026-06-04, kept in `protocol/archive/`) |
 | Search strategy | Locked five-database strategy: PubMed, Scopus, Web of Science, PsycINFO, IEEE Xplore |
 | Search execution | Manual via each database's authenticated UI (institutional MPI/CBS login); code restricted to downstream QC, parsing, and analysis |
 | Multi-database search executed | **2026-06-10 — 14,866 records (raw, pre-dedup):** PubMed 4,912 · Scopus 4,212 · Web of Science 3,750 · PsycINFO 783 · IEEE Xplore 1,209. See [`search/search_execution/search_execution_report.md`](search/search_execution/search_execution_report.md). |
 | Phase 1 — corpus construction (deduplication) | **2026-06-16 — Complete.** Imported all five raw exports into Rayyan (IEEE CSV → RIS conversion via `convert_ieee_csv_to_ris.py` first); Rayyan duplicate-detection + manual adjudication: 9,613 duplicate groups detected, 3,293 resolved, 35 marked "Not duplicate", **6,285 duplicate records deleted → 8,581-record deduplicated corpus** (canonical RIS: `search/corpus_construction/rayyan_exports/rayyan_dedup_export_2026-06-16/articles.ris`). See [`search/corpus_construction/log.md`](search/corpus_construction/log.md). |
 | PubMed pilot hit count | 5,267 records (v0.4.1 pilot, 2026-05-12; historical comparator) |
 | Empirical seeds captured (v0.4.1 pilot) | 7 / 8 (Sitt 2014 = documented DB miss, recovered via citation tracking; full seed validation against the executed multi-database corpus to follow Phase 2 dedup) |
-| Screening model | Single human reviewer + Elicit AI second screening (calibrated 2026-05-28; κ = 0.843, recall 98.1 %, seeds 8/8) |
+| Screening model | Single human reviewer in Rayyan + Elicit AI second screening (calibrated 2026-05-28: κ = 0.843, recall 98.1 %, seeds 8/8; production run: κ = 0.401, recall 96.0 %) |
+| Screening status | **Complete (2026-11-10).** 8,581 screened, 1,313 at full text, 529 included + 7 additions = **536**; blind re-screens: κ 0.836 (title/abstract, n = 86) and 0.922 (full text, n = 131). See `screening/prisma_flow_counts_FINAL_2026-11-10.md` and the run log. |
+| Next phase | Extraction pilot on 10 studies (sample drawn 2026-11-10, `extraction/pilot_sample_2026-11-10.csv`) |
 | Database access | Confirmed via MPI/CBS login: Scopus, Web of Science, PsycINFO (EBSCO), IEEE Xplore. Embase access constraint documented in Decision 9. |
 | OSF workspace | Private workspace created 2026-05-29 (ORCID-linked, EU-Frankfurt storage); populated with stable pre-registration files |
 | Code archive | Zenodo, see DOI badge above |
@@ -26,11 +28,11 @@ The review systematically maps quantitative complexity measures applied to neura
 ## Authors
 
 Samson Odan (lead) · Lucia Melloni · Andrej Bicanski · Jurgen Jost.
-External collaborators (to be added on contribution): Adam Barrett, Anil Seth.
+External collaborators will be added on substantial contribution.
 
 ## Files
 
-- **`prisma_protocol_v0.5.1.md`** — **registered protocol** archived on OSF Registries ([10.17605/OSF.IO/FU82J](https://doi.org/10.17605/OSF.IO/FU82J)) and Zenodo ([10.5281/zenodo.20609130](https://doi.org/10.5281/zenodo.20609130); concept DOI [10.5281/zenodo.20140263](https://doi.org/10.5281/zenodo.20140263)). Contains the locked search strategy, PECO criteria, eight-axis taxonomy, screening model (single human + Elicit AI second-screening + ASReview prioritisation), and amendments log used for the executed review.
+- **`protocol/prisma_protocol_v0.5.2.md`** — current protocol (post-registration update, 2026-11-10; see its amendments log). The registered v0.5.1 is kept unchanged in `protocol/archive/prisma_protocol_v0.5.1.md`. v0.5.1 details follow: **registered protocol** archived on OSF Registries ([10.17605/OSF.IO/FU82J](https://doi.org/10.17605/OSF.IO/FU82J)) and Zenodo ([10.5281/zenodo.20609130](https://doi.org/10.5281/zenodo.20609130); concept DOI [10.5281/zenodo.20140263](https://doi.org/10.5281/zenodo.20140263)). Contains the locked search strategy, PECO criteria, eight-axis taxonomy, screening model (single human reviewer in Rayyan + Elicit AI second-screening; ASReview prioritisation dropped in v0.5.2), and amendments log used for the executed review.
 - **Legacy protocol snapshots** (`prisma_protocol_v0.4.1.md` through `prisma_protocol_v0.5.md`) — archived historical versions retained for provenance and version history; each transition is recorded in the v0.5.1 amendments log.
 - **`database_queries.md`** — locked PubMed query plus equivalent translations for Scopus, Web of Science, PsycINFO, and IEEE Xplore (Embase removed per Decision 9).
 - **`prisma_checklist_mapping.md` / `.docx`** — PRISMA-ScR (22-item) and PRISMA-S (16-item) compliance mapping against the protocol.
@@ -89,3 +91,9 @@ file will be added and versioned in the repository.
 
 - Protocol document and methodological materials: **CC-BY 4.0**.
 - Code (`pilot_search.py` and any later scripts): **MIT**.
+
+## Public distribution of v0.5.2
+
+Screening is complete; extraction and synthesis remain subsequent phases. This release includes reviewed screening decisions, citation identifiers, the final PRISMA flow, reliability checks, protocol amendments and extraction templates. Raw database exports, abstracts, Elicit supporting quotations and reviewer account details are excluded from this release tree. See [public distribution notes](PUBLICATION_REVIEW.md) and the [file manifest](PUBLICATION_FILE_MANIFEST.csv). References to withheld artifacts describe privately retained source evidence; scripts requiring raw exports must run against that private working copy.
+
+The Zenodo DOI listed above identifies v0.5.1. A new version DOI will be recorded only after v0.5.2 ingestion is verified.

@@ -1,0 +1,17 @@
+pmid,title,journal,year,my_decision,my_primary_exclusion_reason
+41421502,Brain dynamic organization at the acute stage of severe brain injury.,NeuroImage,2026,include,
+41880257,Awareness- and Arousal-specific Brain Analysis Predicts Spinal Cord Stimulation Effectiveness in Disorders of Consciousness.,IEEE journal of biomedical and health informatics,2026,include,
+42083472,Burst suppression: a default brain state associated with loss of network complexity.,Brain : a journal of neurology,2026,include,
+22558506,Percutaneous aspiration of lumbar zygapophyseal joint synovial cyst under fluoroscopic guidance -A case report-.,Korean journal of anesthesiology,2012,exclude,"No consciousness relevance, no complexity measures and no neural data"
+22784904,Percutaneous vertebroplasty for symptomatic osteoporotic vertebral compression fracture adjacent to lumbar instrumented circumferential fusion.,Orthopedics,2012,exclude,"No consciousness relevance, no complexity measures and no neural data"
+22996869,Percutaneous osteoplasty for the treatment of a painful osteochondral lesion of the talus: a case report and literature review.,Pain physician,2012,exclude,"No consciousness relevance, no complexity measures and no neural data"
+42109925,Acas-eer: attention-based CNN architecture search with spatial-spectral feature for emotional EEG recognition.,Cognitive neurodynamics,2026,maybe,
+40272770,Topological Reorganization and Resting-State Functional Connectivity in Functional Dyspepsia: Associations of Symptoms with Peripheral Cytokine Levels and Amygdala Nodal Centrality.,Molecular neurobiology,2025,maybe,
+15134712,Pathological theta oscillations in idiopathic generalised epilepsy.,Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology,2004,exclude,No consciousness relevance
+24015222,Characterizing Alzheimer's disease severity via resting-awake EEG amplitude modulation analysis.,PloS one,2013,exclude,No consciousness relevance
+25716830,Granger causality analysis in neuroscience and neuroimaging.,The Journal of neuroscience : the official journal of the Society for Neuroscience,2015,maybe,
+26431743,Spectral entropy in monitoring anesthetic depth.,Revista espanola de anestesiologia y reanimacion,2016,maybe,
+21705870,Performance of anesthetic depth indexes in rabbits under propofol anesthesia: prediction probabilities and concentration-effect relations.,Anesthesiology,2011,include,
+25163065,Frontal-temporal synchronization of EEG signals quantified by order patterns cross recurrence analysis during propofol anesthesia.,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,2015,include,
+11721988,Neural net classification of REM sleep based on spectral measures as compared to nonlinear measures.,Biological cybernetics,2001,include,
+29363595,Basal forebrain contributes to default mode network regulation.,Proceedings of the National Academy of Sciences of the United States of America,2018,maybe,

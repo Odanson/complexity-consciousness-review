@@ -1,0 +1,11 @@
+pilot_no,record_id,rayyan_article_id,doi,title,year,journal
+1,S570551662,570551662,10.1093/sleep/zsaf324,Critical states in sleep EEG: developmental evolution across 3192 clinical children aged 0-18 years.,2026,Sleep
+2,S570551016,570551016,10.1109/spin.2016.7566770,Wavelet Entropy as a measure of Depth of Anaesthesia,2016,2016 3rd International Conference on Signal Processing and Integrated Networks (SPIN)
+3,S570555815,570555815,10.3389/fnint.2014.00008,Brainstem stimulation augments information integration in the cerebral cortex of desflurane-anesthetized rats.,2014,Frontiers in integrative neuroscience
+4,S570552562,570552562,10.1371/journal.pone.0025155,Preferential inhibition of frontal-to-parietal feedback connectivity is a neurophysiologic correlate of general anesthesia in surgical patients.,2011,PloS one
+5,S570551839,570551839,10.1109/icais53314.2022.9742929,"Data Collection, Analysis and Evaluation of Consciousness State Information Based on Signal Sensor Network",2022,2022 Second International Conference on Artificial Intelligence and Smart Energy (ICAIS)
+6,S570551030,570551030,10.1109/imccc.2015.21,Sleep Staging from the EEG Signal Using Multifractal Detrended Fluctuation Analysis,2015,"2015 Fifth International Conference on Instrumentation and Measurement, Computer, Communication and Control (IMCCC)"
+7,S570551984,570551984,10.1097/aln.0000000000004095,Propofol-induced Unresponsiveness Is Associated with a Brain Network Phase Transition.,2022,Anesthesiology
+8,S570551161,570551161,10.1097/01.anes.0000264790.07231.2d,Behavior of entropy/complexity measures of the electroencephalogram during propofol-induced sedation: dose-dependent effects of remifentanil.,2007,Anesthesiology
+9,S570553304,570553304,10.1101/2023.10.26.564247,Criticality of resting-state EEG predicts perturbational complexity and level of consciousness during anesthesia.,2023,bioRxiv : the preprint server for biology
+10,S570550888,570550888,10.1038/s41386-024-01809-2,"Neural complexity is increased after low doses of LSD, but not moderate to high doses of oral THC or methamphetamine.",2024,Neuropsychopharmacology : official publication of the American College of           Neuropsychopharmacology

@@ -124,6 +124,8 @@ The protocol's §B7 deduplication pipeline ("Bramer method in Zotero + Rayyan de
 
 ## Next step (Phase 2)
 
+> *Status note (2026-11-10): this section is the plan as it stood on 2026-06-16 and is kept for the record. As executed: the ASReview prioritisation was dropped (protocol v0.5.2); every record was screened by the lead reviewer in Rayyan with Elicit as second screener. Screening is complete: 8,581 screened, 1,313 at full text, 529 included + 7 additions = 536 (see `screening/prisma_flow_counts_FINAL_2026-11-10.md`).*
+
 Title / abstract screening on the 8,581-record corpus, executed via the **two-layer model registered in §B7 step 5**:
 
 - **Elicit AI second-screening** (four-criterion rendering of §B6/§B7 eligibility — strict criteria OFF, no automated override; per-criterion calls + rationales + source quotes exported to the audit trail).

@@ -17,12 +17,12 @@
 | 6 | Methods | Eligibility criteria | §B3 PECO + §B4 inclusion / exclusion / grey-zone criteria |
 | 7 | Methods | Information sources | §B5 (five databases with per-database rationale; preprints; hand-search; Citationchaser; expert elicitation; Decision 9 documents Embase access constraint) |
 | 8 | Methods | Search | §B6 (locked Block 1 / Block 2 / Block 3 PubMed string + companion `database_queries.md` with four translations) |
-| 9 | Methods | Selection of sources of evidence | §B7 (single human reviewer + Elicit AI second-screening + ASReview active-learning prioritisation; within-person test-retest; pre-registered Elicit calibration documented in `calibration_results.md`; Yaron 2022 *Nat Hum Behav* precedent for the single-human-reviewer baseline) |
+| 9 | Methods | Selection of sources of evidence | §B7 (single human reviewer in Rayyan + Elicit AI second-screening; ASReview dropped in v0.5.2; within-person test-retest; pre-registered Elicit calibration documented in `calibration_results.md`; Yaron 2022 *Nat Hum Behav* precedent for the single-human-reviewer baseline) |
 | 10 | Methods | Data charting process | §B7 data extraction paragraph + §B8 extraction-fields list; piloted structured extraction form on 10 studies, then revised before bulk extraction; 10 % intra-rater re-extraction after ≥ 1-month delay |
 | 11 | Methods | Data items | §B8 extraction fields (12 categories) |
 | 12 | Methods | Critical appraisal of individual sources of evidence (*optional*) | §B10 (we elect to apply a measurement-methodology checklist; six items rated low / some concern / high; piloted on the same 10-study set used for §B8 extraction-form pilot) |
 | 13 | Methods | Synthesis of results | §B11 narrative-synthesis plan + §B12 taxonomy (eight axes) |
-| 14 | Results | Selection of sources of evidence | Pending — populated post-multi-database run (PRISMA flow diagram from Elicit + ASReview exports, §B7) |
+| 14 | Results | Selection of sources of evidence | Complete (2026-11-10): final counts and diagram in `screening/prisma_flow_counts_FINAL_2026-11-10.md` (14,866 identified; 8,581 screened; 1,313 full text; 529 included + 7 additions = 536) |
 | 15 | Results | Characteristics of sources of evidence | Pending — extraction output |
 | 16 | Results | Critical appraisal within sources of evidence | Pending — §B10 checklist outputs |
 | 17 | Results | Results of individual sources of evidence | Pending — per-paper extraction outputs |
@@ -45,7 +45,7 @@ Items 14–21 are Results / Discussion items and are not part of the protocol *p
 | 3 | Information sources & methods | Study registries | Not applicable for this scoping review (we do not search trial registries; no clinical trials are in scope). Documented as N/A. |
 | 4 | Information sources & methods | Online resources and browsing | §B5 hand-search list (12 journals); preprint sources (bioRxiv, medRxiv, arXiv, PsyArXiv) |
 | 5 | Information sources & methods | Citation searching | §B5 (Citationchaser, named per PRISMA-S requirement) + §B9 seed set |
-| 6 | Information sources & methods | Contacts | §B5 expert elicitation (Jürgen Jost, Lucia Melloni, Andrej Biçanski; planned external collaborators Anil Seth and Adam Barrett); each suggestion logged with capture-vs-miss status |
+| 6 | Information sources & methods | Contacts | §B5 expert elicitation (Jürgen Jost, Lucia Melloni, Andrej Biçanski; external collaborators); each suggestion logged with capture-vs-miss status |
 | 7 | Information sources & methods | Other methods | None used beyond items 1–6 |
 | 8 | Information sources & methods | Inclusion and exclusion criteria | §B4 (replicated here for cross-reference to the search) |
 | 9 | Search strategies | Full search strategies | §B6 (PubMed canonical, in full); `database_queries.md` (five database translations, in full) |
@@ -71,7 +71,7 @@ Items 14–21 are Results / Discussion items and are not part of the protocol *p
 
 **Phase 1 deduplication completed (2026-06-15 → 06-16).** Rayyan duplicate-detection + manual adjudication reduced 14,866 imported references to an **8,581-record deduplicated corpus** (6,285 duplicates deleted; 35 manually marked "Not duplicate"). Workflow + statistics in `search/corpus_construction/log.md`; canonical corpus at `search/corpus_construction/rayyan_exports/rayyan_dedup_export_2026-06-16/articles.ris`. **PRISMA-S items 14, 15, and 16 are now populated;** Phase 2 title / abstract screening on the 8,581-record corpus (Elicit + ASReview per §B7) is the next milestone.
 
-The Zenodo concept DOI (10.5281/zenodo.20140263) and v0.5.1 specific-release DOI (10.5281/zenodo.20609130) are recorded in §B6.3 and will be updated only if a new GitHub/Zenodo release is created for v0.5.1.
+The Zenodo concept DOI (10.5281/zenodo.20140263) and v0.5.1 specific-release DOI (10.5281/zenodo.20609130) are recorded in §B6.3 and will be updated when the v0.5.2 GitHub/Zenodo release is created (new version DOI under the same concept DOI).
 
 ---
 

@@ -178,3 +178,26 @@ Once those three are done, the §B7 amendment can be written in one paragraph: *
 ---
 
 *Source-classified disagreement list with full per-criterion calls and reasons: `calibration_disagreements_classified.csv`.*
+
+---
+
+## Production outcome (2026-09-10)
+
+**Source:** `screening/elicit_vs_human_production_report.md`, `screening_run_log.md` §7f, §7g, §7k. Computed on 8,574 unique Rayyan IDs (8,581 records; seven duplicate pairs share an ID, see run log §7g).
+
+| Metric | Calibration (n = 194 paired) | Production (6,801 paired) | Threshold |
+|---|---:|---:|---|
+| Recall of human includes | 98.1% | **96.0%** (944 agree / 39 misses) | ≥ 95% - pass |
+| Cohen's κ | 0.843 | **0.401** | ≥ 0.60 - below |
+| PABAK | - | **0.501** | - |
+| Raw agreement | 92.3% | 75.1% | - |
+| Precision of Elicit includes | - | 36.3% | - |
+| Empirical seeds returned Include | 8/8 | 4/7 (two with no verdict; Carhart-Harris 2014 Exclude) | 8/8 |
+
+**Kappa paradox.** The low κ does not signal poor screening. Elicit was deliberately run permissively (strict-OFF aggregation) to protect recall, so it includes 1,657 records the human excluded (precision 36.3%), while the human-Exclude class is large (about 85% of paired records). With such skewed marginals and one-directional disagreement, κ is depressed even though recall, the quantity the second screener exists to protect, stayed above threshold. PABAK (0.501) and recall are the more informative figures. This is a predicted failure mode (the calibration identified over-inclusion as dominant), not a new one.
+
+**Coverage gap.** 1,690 records (19.7%) have no Elicit verdict: 663 explained by the no-abstract manifest and 1,027 unexplained. A random 20-record spot-check (run log §7k) did not confirm the workspace-library dedup hypothesis: all had abstracts. The cause remains unexplained; no re-screening of the gap was done. All 195 human-Include and 21 human-Maybe records in the gap went to full text; the 811 human-Excludes had no AI second screen. This is stated as a limitation.
+
+**Adjudication.** The 39 recall-miss records (human Include, Elicit Exclude) were adjudicated: 14 upheld as Include and 25 flipped to Exclude (Elicit was right). Original human Include 1,221; 1,196 after flips; plus 117 Maybe = **1,313 records to full text**. The earlier figures of 32 adjudications and 1,219 Include were corrected for the shared-ID issue (run log §7g).
+
+**Deviation from the calibration plan.** The seed gate (8/8) was not met under production (4/7 returned Include). The seed exclusion review is in `admin/seed_exclusion_review_2026-09-10.md`. Because Elicit was a second screener and every human decision stood unless adjudicated, this did not remove any human-Include from the pipeline.

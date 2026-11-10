@@ -22,7 +22,7 @@ Two methodological points worth stating plainly:
 ## Step 1 — Draw the sample (~5 min)
 
 ```bash
-cd "/Users/odanson/Lab Rotations/PredictiveLab/Complexity/Complexity"
+cd /path/to/complexity-consciousness-review
 python3 calibration_sample.py            # 200 records, seed 20260525
 ```
 

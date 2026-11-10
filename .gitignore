@@ -40,3 +40,17 @@ prisma_protocol_v*.docx
 ~$*
 Extra/
 Elicit results/
+
+# Files awaiting the lead reviewer's deletion review
+to_be_deleted/
+
+# Publication review: retain source exports privately
+*.ris
+*.nbib
+*.zip
+*.odt
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
