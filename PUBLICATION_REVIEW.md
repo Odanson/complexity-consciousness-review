@@ -13,3 +13,15 @@ Authorship, researcher ORCIDs, institutional affiliations and attributed methodo
 References to withheld files describe privately retained audit evidence; those files are not missing from the original research record. Scripts that need abstracts/raw exports must be run against the private original repository. The original frozen SHA-256 manifest describes the original included-set and decision CSVs, which are retained byte-for-byte here.
 
 Earlier GitHub history may contain raw exports and internal operational documents that are omitted from this release tree. This distribution review does not rewrite that history or alter older release archives. OSF registration FU82J preserves the registered protocol and is unchanged.
+
+## Verification details retained from the Home wiki
+
+The v0.5.2 archive contains 115 files and was verified against commit `8f2f4541c25e6293f8fc732fad8c457d7f5ee2c1`, including its archive checksum and every file. The original frozen SHA-256 manifest remains valid for the included-set and full-text decision CSVs. The later DOI documentation commit is separate from the archived tag.
+
+## Note on identifiers in the registered protocol
+
+The registered v0.5.1 text still carries the earlier transposed DOI value and remains unchanged, as does its archived copy. The corrected identifiers are: **10.5281/zenodo.20140262 is the concept DOI**, and **10.5281/zenodo.20140263 identifies v0.4.1-zenodo**. Both record responses explicitly report `conceptrecid: "20140262"` and `conceptdoi: "10.5281/zenodo.20140262"`. This clarification is a later explanatory note, not an amendment to the immutable OSF registration FU82J.
+
+## Historical copies and present scope
+
+Older GitHub history retains raw search exports and operational documents. The v0.4.1-zenodo archive retains an operational action plan. The v0.5.1 archive retains calibration RIS/CSV and Elicit exports that may include third-party abstracts and Elicit-extracted supporting quotations. These historical materials remain publicly accessible. No removal is promised.

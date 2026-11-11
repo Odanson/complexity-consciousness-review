@@ -601,4 +601,15 @@ Status of all nine protocol decisions: Decisions 1–7 raised in v0.2 / v0.3 (af
 
 ---
 
+
+## Data availability
+
+Public citation identifiers, screening decisions, final counts, reliability documentation and extraction templates are available in the v0.5.2 release (DOI: 10.5281/zenodo.24117099). Raw database and service exports, source abstracts, Elicit supporting quotations, original account logs and logged-in screenshots are retained privately because they may contain personal account/contact information or third-party material whose redistribution rights have not been established. Sanitized decision logs may be public; original account logs are withheld. Scripts requiring withheld inputs cannot be rerun from the public repository alone. No promise of access to restricted third-party content is made. CC BY 4.0 applies to review-authored protocol and methodological materials; it does not grant rights to third-party abstracts, quotations or database content. Rights to the removed third-party content remain uncleared. Code is separately licensed under MIT.
+
+Older GitHub history retains raw search exports and operational documents. The v0.4.1-zenodo archive retains an operational action plan. The v0.5.1 archive retains calibration RIS/CSV and Elicit exports that may include third-party abstracts and Elicit-extracted supporting quotations. These historical materials remain publicly accessible. No removal is promised.
+
+## Note on identifiers in the registered protocol
+
+The registered v0.5.1 text still carries the earlier transposed DOI value and remains unchanged, as does its archived copy. The corrected identifiers are: **10.5281/zenodo.20140262 is the concept DOI**, and **10.5281/zenodo.20140263 identifies v0.4.1-zenodo**. Both record responses explicitly report `conceptrecid: "20140262"` and `conceptdoi: "10.5281/zenodo.20140262"`. This clarification is a later explanatory note, not an amendment to the immutable OSF registration FU82J.
+
 *End of document.*
