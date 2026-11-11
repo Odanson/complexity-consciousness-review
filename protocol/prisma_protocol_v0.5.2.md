@@ -599,6 +599,8 @@ Status of all nine protocol decisions: Decisions 1–7 raised in v0.2 / v0.3 (af
   - *Collaborators.* External collaborators are named in this protocol, and as authors, only once they have made a substantial contribution (§B1, §C4); until then they are not listed.
   - *Administrative.* §B1 version and milestone rows updated; §B6.3 Zenodo version list updated (v0.5.2 DOI to be added after release).
 
+- **2026-11-11 — Documentation update (post-release).** Added data-availability and licence-scope clarification and disclosed historical public material; the concept DOI is 10.5281/zenodo.20140262, while 10.5281/zenodo.20140263 identifies v0.4.1-zenodo. The registered v0.5.1 text carries the earlier transposed value and the registration is unchanged. Methods, screening counts and existing amendment entries are unchanged. The archived v0.5.2 release retains the pre-update text; this log and the `main` copy are authoritative for the 2026-11-11 additions.
+
 ---
 
 
